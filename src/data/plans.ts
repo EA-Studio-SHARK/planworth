@@ -109,7 +109,7 @@ export const plans: Plan[] = [
     product: "Claude",
     name: "Pro",
     priceUsd: 20,
-    priceLabel: "$20 / 月（年付约 $17）",
+    priceLabel: "$20 / 月",
     billing: "月付 $20；年付 $200 预付约 $17/月",
     models: ["Opus", "Sonnet", "Haiku", "Claude Code", "Fable（用量积分）"],
     quotaOfficial: "More usage than Free，every 5 hours and every week，对照表记为 1×。官方未公开精确 token 数。含 Claude Code。",

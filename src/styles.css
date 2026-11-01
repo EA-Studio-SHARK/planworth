@@ -290,7 +290,7 @@ td.num, th.num { font-variant-numeric: tabular-nums; font-family: var(--mono); f
 }
 .rank-item {
   display: grid;
-  grid-template-columns: 88px 1fr auto;
+  grid-template-columns: 132px 1fr auto;
   gap: 14px;
   align-items: start;
   padding: 14px 0;
@@ -381,8 +381,10 @@ td.num, th.num { font-variant-numeric: tabular-nums; font-family: var(--mono); f
   padding: 18px 20px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
 }
+.shop-card h2 { max-width: 100%; }
 .shop-card .price {
   font-size: 22px;
   font-weight: 600;
@@ -406,16 +408,18 @@ td.num, th.num { font-variant-numeric: tabular-nums; font-family: var(--mono); f
 
 @media (max-width: 800px) {
   .topbar {
-    grid-template-columns: 1fr auto;
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
     min-height: var(--topbar);
     row-gap: 0;
     padding: 8px 14px 0;
   }
-  .brand { grid-column: 1; }
-  .top-right { grid-column: 2; }
+  .brand { flex: 1; }
+  .top-right { flex: 0 0 auto; }
+  .top-right .gh { display: none; }
   .nav {
-    grid-column: 1 / -1;
+    flex: 1 0 100%;
     justify-content: flex-start;
     overflow-x: auto;
     gap: 1.1rem;
