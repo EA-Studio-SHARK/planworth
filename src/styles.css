@@ -55,7 +55,8 @@ button { cursor: pointer; }
   flex-direction: column;
   justify-content: center;
   line-height: 1.15;
-  min-width: 0;
+  min-width: 7.5em;
+  white-space: nowrap;
 }
 .brand strong {
   font-size: 14px;
@@ -415,7 +416,7 @@ td.num, th.num { font-variant-numeric: tabular-nums; font-family: var(--mono); f
     row-gap: 0;
     padding: 8px 14px 0;
   }
-  .brand { flex: 1; }
+  .brand { flex: 1 1 auto; }
   .top-right { flex: 0 0 auto; }
   .top-right .gh { display: none; }
   .nav {
