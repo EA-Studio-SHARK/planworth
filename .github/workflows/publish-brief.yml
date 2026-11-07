@@ -1,0 +1,64 @@
+# The gate between whoever wrote the brief and the live site. Nothing reaches main unless it passes here.
+name: Publish brief
+
+on:
+  push:
+    branches:
+      - "claude/brief-*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Allow only one brief file to change
+        run: |
+          changed=$(git diff --name-only origin/main...HEAD)
+          echo "$changed"
+          count=$(echo "$changed" | grep -c . || true)
+          if [ "$count" != "1" ] || ! echo "$changed" | grep -Eq '^src/data/briefs/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$'; then
+            echo "::error::A brief branch may change exactly one file in src/data/briefs/."
+            exit 1
+          fi
+          echo "BRIEF_DATE=$(basename "$changed" .json)" >> "$GITHUB_ENV"
+      - name: Check the date is today
+        run: |
+          today=$(TZ=Asia/Shanghai date +%F)
+          [ "$BRIEF_DATE" = "$today" ] || { echo "::error::Brief is dated $BRIEF_DATE, today is $today."; exit 1; }
+      - name: Quality check
+        run: node scripts/check-brief.mjs "$BRIEF_DATE"
+      - name: Build
+        run: npm run build
+      - name: Merge to main
+        run: |
+          git fetch origin main
+          git checkout -B publish origin/main
+          git checkout "$GITHUB_SHA" -- "src/data/briefs/$BRIEF_DATE.json"
+          git config user.name "exploreai-bot"
+          git config user.email "exploreai-bot@users.noreply.github.com"
+          git add "src/data/briefs/$BRIEF_DATE.json"
+          git commit -m "brief: $BRIEF_DATE"
+          git push origin publish:main
+          git push origin --delete "$GITHUB_REF_NAME" || true
+      - name: Deploy
+        run: |
+          npm run build
+          npx --yes wrangler@4.152.0 deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

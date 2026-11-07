@@ -47,6 +47,8 @@ npm run build
 
 校验会核对 star 数、项目是否真实存在、夸张用语、近期重复和链接是否可访问。不合格就不发，站点继续显示上一期。
 
+自动流程：每天 06:30 GitHub Actions 抓素材，07:30 Claude 写稿并推到 `claude/brief-*` 分支，Actions 校验通过后才合并到 `main` 并部署。
+
 ## 致谢
 
 环境检测和模型指纹基于 [CheckCC](https://github.com/yacuo/check-cc) 和 [LM Fingerpoint Detector](https://github.com/Ikaleio/lm-detector)，它们的版权和许可说明见 [third_party/NOTICE.md](third_party/NOTICE.md)。
