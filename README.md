@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://app.exploreai.chat"><img src="https://img.shields.io/badge/官网-app.exploreai.chat-0071e3?style=for-the-badge" alt="官网"></a>
   <a href="https://app.exploreai.chat/#/claude/brief"><img src="https://img.shields.io/badge/每日早报-中英双语-1d1d1f?style=for-the-badge" alt="每日早报"></a>
-  <a href="https://x.com/_ExploreAI"><img src="https://img.shields.io/badge/X-_ExploreAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://x.com/_ExploreAI"><img src="https://img.shields.io/badge/X-__ExploreAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://t.me/ExploreAllStudio"><img src="https://img.shields.io/badge/Telegram-ExploreAllStudio-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="README.en.md"><img src="https://img.shields.io/badge/Lang-English-6e6e73?style=for-the-badge" alt="English"></a>
 </p>

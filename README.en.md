@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://app.exploreai.chat"><img src="https://img.shields.io/badge/Website-app.exploreai.chat-0071e3?style=for-the-badge" alt="Website"></a>
   <a href="https://app.exploreai.chat/#/claude/brief"><img src="https://img.shields.io/badge/Daily_brief-EN_%2F_中文-1d1d1f?style=for-the-badge" alt="Daily brief"></a>
-  <a href="https://x.com/_ExploreAI"><img src="https://img.shields.io/badge/X-_ExploreAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://x.com/_ExploreAI"><img src="https://img.shields.io/badge/X-__ExploreAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://t.me/ExploreAllStudio"><img src="https://img.shields.io/badge/Telegram-ExploreAllStudio-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Lang-中文-6e6e73?style=for-the-badge" alt="中文"></a>
 </p>
@@ -23,7 +23,7 @@
 
 | Step | Page | What it answers |
 | --- | --- | --- |
-| Guides | [Column](https://app.exploreai.chat/#/claude) | Account safety, top-up and usage guides, covering official rules and appeals only |
+| Guides | [Guides](https://app.exploreai.chat/#/claude) | Account safety, top-up and usage guides, covering official rules and appeals only |
 | Usage | [Compare](https://app.exploreai.chat/#/worth) | 117 plans and 49 models: what the same money buys, with optional bill import |
 | Top-up | [Shop](https://app.exploreai.chat/#/shop) | Promoted items, each labelled with its official tier and what you must submit. Not an official channel |
 | Environment | [Environment](https://app.exploreai.chat/#/checkcc) | Checks your IP, timezone, language and connectivity |
