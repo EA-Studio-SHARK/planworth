@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: site-main
+  group: fetch-daily
   cancel-in-progress: false
 
 jobs:
