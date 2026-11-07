@@ -1,4 +1,5 @@
 # 06:30 Beijing time: collect the day's material. The Claude routine writes the brief from it at 07:30.
+# Shop prices aren't fetched here: the shop's firewall rejects GitHub's servers, so a local task refreshes them.
 name: Fetch daily material
 
 on:
@@ -38,9 +39,6 @@ jobs:
           # A dry run uses tomorrow so it really fetches instead of reusing today's files.
           if [ "$DRY_RUN" = "true" ]; then date_cn=$(TZ=Asia/Shanghai date -d tomorrow +%F); fi
           echo "BRIEF_DATE=$date_cn" >> "$GITHUB_ENV"
-      - name: Refresh shop prices and stock
-        continue-on-error: true
-        run: node scripts/fetch-shop.mjs "$BRIEF_DATE"
       - name: Fetch brief material
         run: node scripts/fetch-brief.mjs "$BRIEF_DATE"
       - name: Show what was fetched
@@ -58,15 +56,7 @@ jobs:
         run: |
           git config user.name "exploreai-bot"
           git config user.email "exploreai-bot@users.noreply.github.com"
-          git add src/data/brief-raw src/data/github-hot.json src/data/shop-live.json
+          git add src/data/brief-raw src/data/github-hot.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: daily material $BRIEF_DATE"
           git push origin HEAD:main
-      - name: Publish refreshed prices
-        if: ${{ inputs.dry_run != true }}
-        run: |
-          npm run build
-          npx --yes wrangler@4.152.0 deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
