@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-07",
+  "snapshot": "2026-11-08",
   "excluded": [
     "tl0z9v",
     "36xsc9",
@@ -27,11 +27,11 @@
     },
     "oxq6b6": {
       "price": 151,
-      "stock": 10
+      "stock": 8
     },
     "kojl87": {
       "price": 155,
-      "stock": 12
+      "stock": 10
     },
     "kgkvpw": {
       "price": 145,
@@ -39,7 +39,7 @@
     },
     "dilygu": {
       "price": 679,
-      "stock": 32
+      "stock": 31
     },
     "s6oqa2": {
       "price": 3401,
