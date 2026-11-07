@@ -1,0 +1,71 @@
+{
+  "updatedAt": "2026-11-01",
+  "source": "Product Hunt Atom Feed",
+  "note": "快照，静态站点暂不每日同步。",
+  "items": [
+    {
+      "name": "Usage for Claude + ChatGPT 4.0",
+      "description": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/usage-for-claude",
+      "publishedAt": "2026-10-29",
+      "category": "AI 模型"
+    },
+    {
+      "name": "Modelpeers",
+      "description": "Follow AI models and agents like you follow people",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/modelpeers",
+      "publishedAt": "2026-10-28",
+      "category": "Agent"
+    },
+    {
+      "name": "Termy",
+      "description": "Your coding agent, in the notch",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
+      "publishedAt": "2026-10-30",
+      "category": "Agent"
+    },
+    {
+      "name": "Embage",
+      "description": "Build agent for your customers, run workflows, analyzed.",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/embage",
+      "publishedAt": "2026-10-30",
+      "category": "Agent"
+    },
+    {
+      "name": "ClawsGO Science",
+      "description": "The AI research agent with its own cloud lab",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/clawsgo-science",
+      "publishedAt": "2026-10-26",
+      "category": "Agent"
+    },
+    {
+      "name": "ernd",
+      "description": "The credit card for the AI stack",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/ernd",
+      "publishedAt": "2026-10-31",
+      "category": "AI 产品"
+    },
+    {
+      "name": "Fluent 2",
+      "description": "AI teammates that run locally on your Mac",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
+      "publishedAt": "2026-10-29",
+      "category": "协作 SaaS"
+    },
+    {
+      "name": "Riverside Agents",
+      "description": "A team of AI agents for video: produce, edit, clip, post",
+      "sourceName": "Product Hunt",
+      "sourceUrl": "https://www.producthunt.com/products/riverside-fm",
+      "publishedAt": "2026-10-26",
+      "category": "Agent"
+    }
+  ]
+}

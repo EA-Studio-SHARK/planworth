@@ -1,27 +1,52 @@
-# 对照台 Planworth
+# ExploreAI
 
-单个产品：把 ChatGPT、Claude、Cursor 等订阅换算成 API token 价值，按模型和月用量推荐套餐，并带推广代充与文章。
+**充值一件套：文案 → 使用 → 充值 → 环境 → 指纹。**
 
-适合挂在 GitHub Pages。没有 GitHub 热门项目目录。
+官网：<https://app.exploreai.chat>
 
-## 本地
+帮你在给 AI 工具付费之前算清楚：同样的钱换哪个模型最划算，官方规则怎么走，当前环境和模型是不是你以为的那样。
+
+## 里面有什么
+
+| 页面 | 做什么 |
+| --- | --- |
+| 专栏 | 防封号、充值和使用教程，只讲官方规则和申诉 |
+| 每日早报 | 每天筛选 GitHub 和 Product Hunt 上值得看的 AI 项目，中英双语 |
+| 对照 | 117 个套餐、49 个模型，同样的钱能换多少，可以导入自己的账单 |
+| 商店 | 推广商品，逐件标明对应的官方档位和需要提交什么。这不是官方渠道 |
+| 环境 | 检查 IP、时区、语言和连通性 |
+| 指纹 | 判断 API 背后实际是哪个模型 |
+
+## 隐私
+
+静态站，没有后端和用户数据库。对照和指纹只在你的浏览器里计算；环境检测开始后才会连第三方查询 IP 和连通性，名单写在环境页上。
+
+## 本地运行
 
 ```bash
 npm install
 npm run dev
 ```
 
-打开 http://localhost:5173/
+然后打开 <http://localhost:5173/>。
 
-## 数据
+## 数据怎么来
 
-- `src/data/plans.ts`：套餐。Claude / ChatGPT / Cursor 主力档核验于 2026-11-01 官网；其余来自 2026-08-18 订阅核验 JSON。
-- `src/data/api-models.ts`：API 牌价（Anthropic、OpenAI 2026-11-01）。
-- `src/data/shop.ts`：EA小铺推广商品快照 2026-10-31。标「推广」，非官方渠道。
-- `src/data/subscriptions.raw.json`：原始核验表，供对照，页面不直接渲染。
+- 套餐和 API 价格来自官方页。`confidence: "live"` 表示已对照官方页，`"index"` 表示还没逐页核对，页面显示「待复核」。
+- 官方没公开的配额写成「推测」或「未获取」，不用估算数冒充。
+- 英文是提前写好的静态内容，不会把页面内容发给翻译服务。`npm run build` 发现英文站有中文就会失败。
 
-未公开的精确 token 配额写成「未获取」或「官方未公开」，不用估算数冒充官方配额。自带 API credits 才写成美元。
+## 每日早报
 
-## 发布 GitHub Pages
+标准写在 [scripts/BRIEF-RULES.md](scripts/BRIEF-RULES.md)。每期是 `src/data/briefs/` 下的一个文件，必须通过校验才会发布：
 
-`vite.config.ts` 使用 `base: './'`，路由是 HashRouter。把 `npm run build` 的 `dist/` 推到 `gh-pages` 即可。未接到「发布」前不要 push。
+```bash
+node scripts/check-brief.mjs
+npm run build
+```
+
+校验会核对 star 数、项目是否真实存在、夸张用语、近期重复和链接是否可访问。不合格就不发，站点继续显示上一期。
+
+## 致谢
+
+环境检测和模型指纹基于 [CheckCC](https://github.com/yacuo/check-cc) 和 [LM Fingerpoint Detector](https://github.com/Ikaleio/lm-detector)，它们的版权和许可说明见 [third_party/NOTICE.md](third_party/NOTICE.md)。

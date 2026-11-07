@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-07",
+  "days": 1,
+  "headline": "今天的主线：Agent 开始碰 3D 和视频。有人给模型写了一门专用的 3D 语言，有人开源了带 AI 的雕刻软件，也有人把一条视频拆成能照着做的方案。",
+  "headlineEn": "Today's thread: agents are moving into 3D and video. One team wrote a 3D language just for models, another open-sourced a sculpting app with built-in AI, and a third breaks any video down into a plan you can follow.",
+  "lead": {
+    "source": "github",
+    "name": "Sandflow-ai/sand3d",
+    "url": "https://github.com/Sandflow-ai/sand3d",
+    "stars": 810,
+    "zh": "专门给大模型用的 Python 3D 建模库：几百 token 就能写出带关节、能动的物体。",
+    "en": "A Python 3D modeling library built for LLMs: a few hundred tokens can describe an object with working joints.",
+    "why": "它不让模型吐一团网格，而是写清每个零件怎么做，人也读得懂、改得动。仓库 11 月 3 日才建，完整 API 约 3,600 token，可以直接放进提示词。",
+    "whyEn": "Instead of asking a model for a raw mesh, it has the model spell out how each part is made, so people can read and edit the result too. The repo was created on November 3, and the whole API fits in a prompt at about 3,600 tokens."
+  },
+  "sections": [
+    {
+      "title": "3D 和视频",
+      "titleEn": "3D and video",
+      "items": [
+        {
+          "source": "github",
+          "name": "islandmed/SculptForge",
+          "url": "https://github.com/islandmed/SculptForge",
+          "stars": 616,
+          "zh": "免费开源的 3D 雕刻软件，支持 Linux、macOS 和 Windows，内置文字或图片转 3D，不用账号。",
+          "en": "A free, open-source 3D sculpting app for Linux, macOS and Windows, with built-in image and text to 3D and no account needed."
+        },
+        {
+          "source": "github",
+          "name": "JuneYaooo/rea-video",
+          "url": "https://github.com/JuneYaooo/rea-video",
+          "stars": 3094,
+          "gain": 697,
+          "zh": "把一条视频按镜头拆开：实拍还是 AI 生成，字幕、剪辑、音频怎么做，再给一份照做方案。",
+          "en": "Breaks a video down shot by shot: filmed or AI-generated, how the captions, cuts and audio were made, plus a plan to make your own."
+        },
+        {
+          "source": "github",
+          "name": "elvarofficial/teardown",
+          "url": "https://github.com/elvarofficial/teardown",
+          "stars": 2439,
+          "gain": 143,
+          "zh": "Claude Code Skill：问一台机器怎么工作，它做成一个能拆开看的离线 3D 模拟器网页。",
+          "en": "A Claude Code skill: ask how a machine works and it builds an offline 3D simulator page you can take apart."
+        },
+        {
+          "source": "github",
+          "name": "mromidev/claude-animated-shorts",
+          "url": "https://github.com/mromidev/claude-animated-shorts",
+          "stars": 2037,
+          "gain": 149,
+          "zh": "Claude Skill：用 three.js 和 Remotion 在本机渲染约一分钟的竖屏动画短片，不靠 AI 视频。",
+          "en": "A Claude skill that renders roughly one-minute vertical animated shorts on your own PC with three.js and Remotion, without an AI video generator."
+        },
+        {
+          "source": "github",
+          "name": "patch-gg/pixelfx",
+          "url": "https://github.com/patch-gg/pixelfx",
+          "stars": 5613,
+          "gain": 179,
+          "zh": "244 个像素风特效，每个都是一小段代码，能导出精灵图，还带一个做新特效的 Skill。",
+          "en": "244 pixel art effects, each a small piece of code, with sprite sheet export and a Claude Code skill for making new ones."
+        }
+      ]
+    },
+    {
+      "title": "找东西：你和 Agent 都用得上",
+      "titleEn": "Finding things, for you and your agent",
+      "items": [
+        {
+          "source": "github",
+          "name": "yjid/kensaku",
+          "url": "https://github.com/yjid/kensaku",
+          "stars": 1157,
+          "gain": 252,
+          "zh": "本机文件搜索，文档内容和截图里的字都能搜，文件不出本机，Claude 和 Cursor 也能通过 MCP 查。",
+          "en": "Local file search that reads inside documents and screenshots. Nothing leaves your machine, and Claude or Cursor can query it over MCP."
+        },
+        {
+          "source": "github",
+          "name": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "stars": 143594,
+          "gain": 418,
+          "zh": "在编程助手里输入 /graphify，把项目的代码、文档和 PDF 建成知识图谱，查它就不用反复 grep。",
+          "en": "Type /graphify in your coding assistant to map a project's code, docs and PDFs into a knowledge graph you can query instead of grepping."
+        },
+        {
+          "source": "producthunt",
+          "name": "Codiclens",
+          "url": "https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher",
+          "zh": "用本地 AI 驱动的 Mac 启动器和文件搜索工具。",
+          "en": "A Mac launcher and file finder powered by local AI."
+        },
+        {
+          "source": "producthunt",
+          "name": "Kivo",
+          "url": "https://www.producthunt.com/products/kivo-4",
+          "zh": "免费的 Mac 本机听写，任何 App 和 AI Agent 都能用。",
+          "en": "Free on-device dictation for any Mac app and AI agent."
+        }
+      ]
+    },
+    {
+      "title": "盯住 Agent：调试、审批和省钱",
+      "titleEn": "Keeping agents in check: debugging, approval, cost",
+      "items": [
+        {
+          "source": "producthunt",
+          "name": "AgentTM",
+          "url": "https://www.producthunt.com/products/agenttm",
+          "zh": "给编程 Agent 用的时光回溯调试工具。",
+          "en": "Time-travel debugging for coding agents."
+        },
+        {
+          "source": "producthunt",
+          "name": "LiveShortly",
+          "url": "https://www.producthunt.com/products/liveshortly",
+          "zh": "实时查看、干预、分享和审批编程 Agent 正在做的事。",
+          "en": "Watch, steer, share and approve your coding agent's work as it happens."
+        },
+        {
+          "source": "producthunt",
+          "name": "SafeGrd",
+          "url": "https://www.producthunt.com/products/safegrd",
+          "zh": "数据库备份工具，AI 能用备份恢复数据，但删不掉备份。",
+          "en": "Database backups that AI can restore from but cannot delete."
+        },
+        {
+          "source": "producthunt",
+          "name": "TraceX",
+          "url": "https://www.producthunt.com/products/tracex",
+          "zh": "专门处理线上问题的 AI 工程师。",
+          "en": "An AI engineer for your production issues."
+        },
+        {
+          "source": "github",
+          "name": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "stars": 118026,
+          "gain": 166,
+          "zh": "让 Agent 少说少读来省 token。作者跑了 54 次 Claude Code，测得输入 token 少 33.2%。",
+          "en": "Makes agents say less and read less to save tokens. The author measured 33.2% fewer input tokens across 54 Claude Code runs.",
+          "related": { "to": "/worth", "label": "算算一个月花多少", "labelEn": "Estimate your monthly cost" }
+        }
+      ]
+    },
+    {
+      "title": "Skills：给 Agent 定规矩",
+      "titleEn": "Skills: giving agents standards",
+      "items": [
+        {
+          "source": "github",
+          "name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "stars": 111252,
+          "gain": 321,
+          "zh": "让编程 Agent 做公司官网时不套模板：统一设计规范，用真实照片和图标，最后在浏览器里检查。",
+          "en": "Keeps coding agents off generic templates when building company sites: one design system, real photos and icons, then a check in a real browser."
+        },
+        {
+          "source": "github",
+          "name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "stars": 113747,
+          "gain": 151,
+          "zh": "把资深工程师的流程写成 Skill：规格、计划、实现、测试、审查、上线，每一步一个命令。",
+          "en": "Packages senior engineers' workflow as skills: spec, plan, build, test, review and ship, with one command for each step.",
+          "related": { "to": "/articles/claude-code-start", "label": "Claude Code 上手", "labelEn": "Claude Code basics" }
+        }
+      ]
+    }
+  ]
+}

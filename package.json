@@ -5,12 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && node scripts/check-i18n.mjs && vite build",
     "lint": "eslint .",
+    "brief:fetch": "node scripts/fetch-brief.mjs",
+    "brief:check": "node scripts/check-brief.mjs",
+    "i18n:check": "node scripts/check-i18n.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lobehub/icons-static-svg": "^1.98.0",
     "@phosphor-icons/react": "^2.1.10",
+    "pdfjs-dist": "^6.4.299",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.18.5"

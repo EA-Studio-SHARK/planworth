@@ -1,0 +1,57 @@
+{
+  "snapshot": "2026-11-07",
+  "excluded": [
+    "tl0z9v",
+    "36xsc9",
+    "cgs51d",
+    "oy6qk5",
+    "qi82ys",
+    "glw3le",
+    "u0xm5z",
+    "2xem9x",
+    "uo0hqt",
+    "zfj18a"
+  ],
+  "items": {
+    "ryz1gn": {
+      "price": 156,
+      "stock": 0
+    },
+    "jm28vy": {
+      "price": 895,
+      "stock": 2
+    },
+    "ukj15b": {
+      "price": 1740,
+      "stock": 4
+    },
+    "oxq6b6": {
+      "price": 151,
+      "stock": 10
+    },
+    "kojl87": {
+      "price": 155,
+      "stock": 12
+    },
+    "kgkvpw": {
+      "price": 145,
+      "stock": 3
+    },
+    "dilygu": {
+      "price": 679,
+      "stock": 32
+    },
+    "s6oqa2": {
+      "price": 3401,
+      "stock": 30
+    },
+    "z905r7": {
+      "price": 695,
+      "stock": 41
+    },
+    "v7idaa": {
+      "price": 1585.1,
+      "stock": 10
+    }
+  }
+}

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Internal handoff notes (local paths, plans); keep out of the public repo
+HANDOFF*.md

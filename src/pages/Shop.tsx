@@ -1,41 +1,126 @@
+import { ArrowUpRight } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
-import { FAMILY_LABEL } from "../data/types";
+import { BrandMark } from "../components/BrandMark";
+import { usePrefs } from "../context/Prefs";
+import { loc } from "../lib/localize";
 import { formatCny, SHOP_NAME, SHOP_SNAPSHOT, SHOP_URL, shopItems } from "../data/shop";
+import { CNY_PER_USD, cny, usd } from "../lib/worth";
 
 export function ShopPage() {
+  const { t, lang } = usePrefs();
+  const c = t.shop;
+  const en = lang === "en";
+  const main = shopItems.filter((i) => i.tier === "main");
+  const more = shopItems.filter((i) => i.tier === "more");
+  const families = [...new Set(shopItems.map((i) => i.family))];
   return (
-    <>
-      <p className="kicker">推广 · {SHOP_NAME}</p>
-      <h1 className="page-title">直充</h1>
-      <p className="lede">
-        对照完套餐可以走店铺卡密。这是推广位，不是 Anthropic / OpenAI / Cursor 官方渠道。
-        官方禁止账号共享；不要把密码或验证码发给任何人。
-      </p>
-      <p className="disclaimer">
-        快照 {SHOP_SNAPSHOT}。库存以店铺页面为准。人在 Claude 不支持地区时，代充不能授予使用资格。
-        先读 <Link to="/articles/claude-safety">Claude 封号与申诉</Link>
-        {" · "}
-        <Link to="/articles/third-party-recharge">代充说明</Link>
-        {" · "}
-        <a href={SHOP_URL} target="_blank" rel="noreferrer">打开店铺</a>
-      </p>
-      <div className="shop-grid">
-        {shopItems.map((s) => (
-          <article className="shop-card" key={s.id}>
-            <span className="tag is-promo">推广</span>
-            <h2 style={{ margin: 0, fontSize: 15 }}>{s.name}</h2>
-            <div className="price">{formatCny(s.priceCny)}</div>
-            <p className="small">
-              {FAMILY_LABEL[s.family]} · 对应 {s.officialEquivalent}
-              <br />
-              快照库存 {s.stock}
-            </p>
-            <a className="cta is-promo" href={s.url} target="_blank" rel="noreferrer">
-              去购买
-            </a>
-          </article>
-        ))}
+    <div className="shop2">
+      <header className="page-hero">
+        <p className="kicker">{c.kicker}</p>
+        <h1>{c.title}</h1>
+        <p>{c.lede}</p>
+      </header>
+
+      <div className="shop2-grid">
+        {main.map((item, i) => {
+          const officialCny = item.officialUsd ? item.officialUsd * CNY_PER_USD : null;
+          const out = item.stock <= 0;
+          return (
+            <article key={item.id} className={`shop2-card ${i === 0 ? "is-lead" : ""}`}>
+              <div className="shop2-top">
+                <BrandMark family={item.family} size={34} />
+                <em>{c.promo}</em>
+              </div>
+              <h2>{en ? item.nameEn : item.name}</h2>
+              <p className="shop2-map">{c.maps(en ? item.officialEquivalentEn : item.officialEquivalent)}</p>
+              <p className="shop2-price">{formatCny(item.priceCny)}</p>
+              <p className="shop2-diff">
+                {officialCny && item.officialUsd
+                  ? c.diff(usd(item.officialUsd, 0), cny(officialCny), cny(item.priceCny - officialCny))
+                  : c.noDiff}
+              </p>
+              <p className={`shop2-cred ${item.credential === "sk" || item.credential === "token" ? "is-warn" : ""}`}>
+                {c.credential[item.credential]}
+              </p>
+              <p className="shop2-stock">{out ? c.soldOut(SHOP_SNAPSHOT) : c.stock(item.stock, SHOP_SNAPSHOT)}</p>
+              <div className="shop2-actions">
+                {out ? (
+                  <span className="cta is-ghost is-disabled">{c.soldOutBtn}</span>
+                ) : (
+                  <a className="cta is-blue" href={item.url} target="_blank" rel="noreferrer">
+                    {c.buy} <ArrowUpRight size={15} weight="bold" />
+                  </a>
+                )}
+                <Link className="cta is-ghost" to={`/worth?family=${item.family}`}>
+                  {c.compare}
+                </Link>
+              </div>
+            </article>
+          );
+        })}
       </div>
-    </>
+
+      <section className="shop2-more" aria-label={c.moreTitle}>
+        <div className="shop2-more-head">
+          <div>
+            <h2 className="page-rows-title">{c.moreTitle}</h2>
+            <p>{c.moreLede}</p>
+          </div>
+          <div className="shop2-logos" aria-hidden>
+            {families.map((f) => (
+              <BrandMark key={f} family={f} size={30} />
+            ))}
+          </div>
+        </div>
+        <ul className="shop2-more-grid">
+          {more.map((item) => (
+            <li key={item.id}>
+              <a href={item.url} target="_blank" rel="noreferrer">
+                <BrandMark family={item.family} size={24} />
+                <span>
+                  <b>{en ? item.nameEn : item.name}</b>
+                  <small>{en ? item.officialEquivalentEn : item.officialEquivalent}</small>
+                  <small className={item.credential === "sk" || item.credential === "token" ? "is-warn" : ""}>
+                    {c.credential[item.credential]}
+                  </small>
+                </span>
+                <em>{formatCny(item.priceCny)}</em>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a className="shop2-all" href={SHOP_URL} target="_blank" rel="noreferrer">
+          {c.moreAll} <ArrowUpRight size={15} weight="bold" />
+        </a>
+      </section>
+
+      <h2 className="page-rows-title">{c.checkTitle}</h2>
+      <ol className="page-rows">
+        <li>
+          <b>{c.check1Title}</b>
+          <span>{c.check1}</span>
+        </li>
+        <li>
+          <b>{c.check2Title}</b>
+          <span>{c.check2}</span>
+        </li>
+        <li>
+          <b>{c.check3Title}</b>
+          <span>
+            {c.check3} <Link to="/articles/claude-billing">{c.readPay}</Link>
+          </span>
+        </li>
+      </ol>
+
+      <p className="page-foot">
+        {loc(SHOP_NAME)} · {c.ownNote} <Link to="/articles/third-party-recharge">{c.readTop}</Link>
+        {" · "}
+        <Link to="/disclaimer">{c.readDisc}</Link>
+        {" · "}
+        <a href={SHOP_URL} target="_blank" rel="noreferrer">
+          {c.openShop}
+        </a>
+      </p>
+    </div>
   );
 }

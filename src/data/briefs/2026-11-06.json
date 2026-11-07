@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-06",
+  "days": 1,
+  "headline": "今天的主线：Agent 正在离开写代码的窗口。有的装进了手机，有的在后台自己接活，还有人开始给一群 Agent 做工作台。",
+  "headlineEn": "Today's thread: agents are leaving the code window. Some moved onto phones, some take on work in the background, and people have started building workbenches for whole fleets of them.",
+  "lead": {
+    "source": "github",
+    "name": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "stars": 435782,
+    "gain": 3196,
+    "zh": "让 Agent 逆向任何东西，从 App 行为一路看到原生二进制。",
+    "en": "Lets an agent reverse engineer anything, from app behavior down to native binaries.",
+    "why": "今天 GitHub 上一天涨星最多的项目。它的轻量替代 leanrea 和视频版 rea-video 也在榜上，说明这个方向已经开始分化。",
+    "whyEn": "The biggest one-day star gain on GitHub today. Its lightweight alternative leanrea and video spin-off rea-video are on the list too, so this direction is already branching out."
+  },
+  "sections": [
+    {
+      "title": "Agent 和工作台",
+      "titleEn": "Agents and workbenches",
+      "items": [
+        {
+          "source": "github",
+          "name": "ccch1mneyyy/dsh-Go",
+          "url": "https://github.com/ccch1mneyyy/dsh-Go",
+          "stars": 12201,
+          "gain": 1526,
+          "zh": "把 DeepSeek Harness 装进手机：在手机本机跑，也能遥控电脑。",
+          "en": "DeepSeek Harness on your phone: run it on the device or control your computer remotely."
+        },
+        {
+          "source": "github",
+          "name": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
+          "stars": 117119,
+          "gain": 1077,
+          "zh": "用自己的订阅同时跑一队编程 Agent（Claude Code、Codex 等），桌面、手机都能用。",
+          "en": "Run a fleet of coding agents such as Claude Code and Codex on your own subscription, on desktop or mobile."
+        },
+        {
+          "source": "github",
+          "name": "deepseek-ai/dsh-superagent-prototype",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "stars": 19899,
+          "gain": 767,
+          "zh": "DeepSeek 官方的更自主 Agent 系统原型，10 月 31 日才建的仓库。",
+          "en": "DeepSeek's own prototype of a more autonomous agent system. The repo was only created on October 31."
+        },
+        {
+          "source": "github",
+          "name": "KKKKhazix/agent-autoloop",
+          "url": "https://github.com/KKKKhazix/agent-autoloop",
+          "stars": 3443,
+          "gain": 439,
+          "zh": "让命令行 Agent 在后台自己接活、跟进到底，拿不准才发卡片找你拍板。",
+          "en": "Lets a command-line agent pick up work in the background and follow through, and sends a card only when it needs your call."
+        },
+        {
+          "source": "github",
+          "name": "Balanov/uncut",
+          "url": "https://github.com/Balanov/uncut",
+          "stars": 610,
+          "zh": "只有 7 MB 的无头编程 Agent：一个静态文件，四个工具，不偷偷截断上下文。",
+          "en": "A 7 MB headless coding agent: one static file, four tools, and no silent context truncation."
+        },
+        {
+          "source": "producthunt",
+          "name": "crystl",
+          "url": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+          "zh": "为编程 Agent 做的 macOS 多任务终端。",
+          "en": "A multitasking terminal for coding agents on macOS."
+        },
+        {
+          "source": "producthunt",
+          "name": "OpenVisio",
+          "url": "https://www.producthunt.com/products/openvisio",
+          "zh": "团队和编程 Agent 共用的一个工作区。",
+          "en": "One workspace shared by your team and its coding agents."
+        },
+        {
+          "source": "producthunt",
+          "name": "Pressure",
+          "url": "https://www.producthunt.com/products/pressure",
+          "zh": "想听第二种意见？让两个 Agent 就你的问题辩论。",
+          "en": "Want a second opinion? Have two agents debate your question."
+        }
+      ]
+    },
+    {
+      "title": "Skills：给 Agent 装本事",
+      "titleEn": "Skills: teaching agents new tricks",
+      "items": [
+        {
+          "source": "github",
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "stars": 315894,
+          "gain": 1845,
+          "zh": "「给真正工程师的 Skills」，作者直接公开自己 .agents 目录。",
+          "en": "\"Skills for real engineers\": the author publishes their own .agents directory."
+        },
+        {
+          "source": "github",
+          "name": "heydamir/unslop",
+          "url": "https://github.com/heydamir/unslop",
+          "stars": 10194,
+          "gain": 1111,
+          "zh": "一个 Claude Skill，把一眼 AI 味的界面改成像设计过的样子。",
+          "en": "A Claude skill that turns an obviously AI-made interface into something that looks designed."
+        },
+        {
+          "source": "github",
+          "name": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "stars": 140226,
+          "gain": 634,
+          "zh": "Garry Tan 的 Claude Code 配置：23 个工具，分别扮演 CEO、设计、工程经理、发布和 QA。",
+          "en": "Garry Tan's Claude Code setup: 23 tools acting as CEO, designer, engineering manager, release manager and QA."
+        },
+        {
+          "source": "github",
+          "name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars": 187906,
+          "gain": 330,
+          "zh": "Anthropic 官方的 Agent Skills 公开仓库，想写自己的 Skill 可以从这里看起。",
+          "en": "Anthropic's public repository of Agent Skills, a good place to start before writing your own.",
+          "related": {
+            "to": "/articles/claude-code-start",
+            "label": "Claude Code 上手",
+            "labelEn": "Claude Code basics"
+          }
+        }
+      ]
+    },
+    {
+      "title": "记忆和用量",
+      "titleEn": "Memory and usage",
+      "items": [
+        {
+          "source": "github",
+          "name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars": 113716,
+          "gain": 471,
+          "zh": "跨会话保留上下文：记下 Agent 做过的事，压缩后在下次会话注入。",
+          "en": "Keeps context across sessions: records what the agent did, compresses it and feeds it into the next session."
+        },
+        {
+          "source": "github",
+          "name": "tang1693/KIKUmap",
+          "url": "https://github.com/tang1693/KIKUmap",
+          "stars": 557,
+          "zh": "macOS 菜单栏小工具，把 Claude 和 ChatGPT 的聊天画成思维导图。",
+          "en": "A macOS menu bar tool that draws your Claude and ChatGPT chats as a mind map."
+        },
+        {
+          "source": "producthunt",
+          "name": "OrgSync",
+          "url": "https://www.producthunt.com/products/orgsync-2",
+          "zh": "给 Claude、ChatGPT 和 Codex 团队共用的公司知识库。",
+          "en": "A shared company knowledge base for teams on Claude, ChatGPT and Codex."
+        },
+        {
+          "source": "producthunt",
+          "name": "Cloptima",
+          "url": "https://www.producthunt.com/products/cloptima",
+          "zh": "AI 网关、护栏和 LLM 成本管理。",
+          "en": "An AI gateway with guardrails and LLM cost management.",
+          "related": {
+            "to": "/worth",
+            "label": "先算算费用",
+            "labelEn": "Estimate the cost"
+          }
+        }
+      ]
+    },
+    {
+      "title": "模型和大厂新品",
+      "titleEn": "Models and big-company launches",
+      "items": [
+        {
+          "source": "producthunt",
+          "name": "Tencent Hy4",
+          "url": "https://www.producthunt.com/products/hunyuan-a13b",
+          "zh": "腾讯旗舰模型，新增看图和操作电脑的能力。",
+          "en": "Tencent's flagship model, now able to read images and operate a computer.",
+          "related": {
+            "to": "/worth?family=yuanbao",
+            "label": "看混元价格",
+            "labelEn": "See Hunyuan prices"
+          }
+        },
+        {
+          "source": "producthunt",
+          "name": "ChatGPT Images 2.6",
+          "url": "https://www.producthunt.com/products/chatgpt-images-2-6",
+          "zh": "支持 GIF 和可复用的参考图，生成速度快 50%。",
+          "en": "Adds GIFs and reusable reference images, and generates 50% faster."
+        },
+        {
+          "source": "producthunt",
+          "name": "Nemotron 3.5 Transcribe",
+          "url": "https://www.producthunt.com/products/nvidia",
+          "zh": "英伟达的语音转写模型，用 Speech LLM 做智能转录。",
+          "en": "NVIDIA's speech transcription model, using a Speech LLM for smarter transcripts."
+        }
+      ]
+    }
+  ]
+}

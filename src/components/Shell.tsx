@@ -1,42 +1,42 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { ChartBar, Fingerprint, GlobeSimple, Handshake, House, ShieldCheck, Storefront } from "@phosphor-icons/react";
+import { Link, NavLink, Outlet } from "react-router-dom";
+import { usePrefs } from "../context/Prefs";
+import { GlassNav } from "./GlassTabs";
+import { LanguageToggle, ThemeToggle } from "./PrefMenus";
+import { ScrollToTop } from "./ScrollToTop";
 
 const GITHUB = "https://github.com/EA-Studio-SHARK/planworth";
 
-const links = [
-  { to: "/", label: "对照", end: true },
-  { to: "/recommend", label: "推荐" },
-  { to: "/articles", label: "文章" },
-  { to: "/shop", label: "直充", promo: true },
-];
-
 export function Shell() {
+  const { t } = usePrefs();
+
+  const links = [
+    { to: "/", label: t.navHome, end: true, icon: <House size={18} weight="regular" /> },
+    { to: "/worth", label: t.navWorth, icon: <ChartBar size={18} weight="regular" /> },
+    { to: "/claude", also: "/articles", label: t.navClaude, icon: <ShieldCheck size={18} weight="regular" /> },
+    { to: "/fingerprint", label: t.navFp, icon: <Fingerprint size={18} weight="regular" /> },
+    { to: "/checkcc", label: t.navEnv, icon: <GlobeSimple size={18} weight="regular" /> },
+    { to: "/shop", label: t.navShop, icon: <Storefront size={18} weight="regular" /> },
+    { to: "/partners", label: t.navPartners, icon: <Handshake size={18} weight="regular" /> },
+  ];
+
   return (
     <div className="app">
-      <header className="topbar">
+      <ScrollToTop />
+      <header className="chrome">
         <NavLink to="/" className="brand">
-          <strong>对照台</strong>
-          <span>Planworth</span>
+          <img className="brand-mark" src="./avatar.png" alt="ExploreAI" width={36} height={36} />
+          <strong>{t.brand}</strong>
         </NavLink>
-        <nav className="nav" aria-label="主导航">
-          {links.map((l) => (
-            <NavLink
-              key={l.to}
-              to={l.to}
-              end={l.end}
-              className={({ isActive }) =>
-                `${isActive ? "is-on" : ""} ${l.promo ? "is-promo" : ""}`.trim()
-              }
-            >
-              {l.label}
-            </NavLink>
-          ))}
-        </nav>
-        <div className="top-right">
-          <a className="gh" href={GITHUB} target="_blank" rel="noreferrer">
-            EA-Studio-SHARK/planworth
-          </a>
-          <a className="star" href={GITHUB} target="_blank" rel="noreferrer">
-            Star
+        <div className="chrome-center">
+          <GlassNav links={links} />
+        </div>
+        <div className="chrome-right">
+          <LanguageToggle />
+          <ThemeToggle />
+          <a className="star" href={GITHUB} target="_blank" rel="noreferrer" title="GitHub">
+            <img className="github-mark" src="./github-mark.svg" width={20} height={20} alt="" />
+            <span className="visually-hidden">GitHub</span>
           </a>
         </div>
       </header>
@@ -44,9 +44,15 @@ export function Shell() {
         <Outlet />
       </main>
       <footer className="site-foot">
-        价格来自官方页面与 2026-08-18 订阅核验 JSON。未公开的 token 配额标为未获取。
+        {t.footer}
         <br />
-        直充为推广位，非官方渠道。对照在浏览器本地完成，不保存密钥。
+        {t.footerShop}
+        <br />
+        {t.footerCredit}
+        <nav className="foot-links">
+          <Link to="/partners">{t.navPartners}</Link>
+          <Link to="/disclaimer">{t.discTitle}</Link>
+        </nav>
       </footer>
     </div>
   );
