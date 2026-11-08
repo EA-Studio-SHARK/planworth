@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://app.exploreai.chat"><img src="https://img.shields.io/badge/官网-app.exploreai.chat-0071e3?style=for-the-badge" alt="官网"></a>
-  <a href="https://app.exploreai.chat/#/claude/brief"><img src="https://img.shields.io/badge/每日早报-中英双语-1d1d1f?style=for-the-badge" alt="每日早报"></a>
+  <a href="https://app.exploreai.chat/claude/brief"><img src="https://img.shields.io/badge/每日早报-中英双语-1d1d1f?style=for-the-badge" alt="每日早报"></a>
   <a href="https://x.com/_ExploreAI"><img src="https://img.shields.io/badge/X-__ExploreAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://t.me/ExploreAllStudio"><img src="https://img.shields.io/badge/Telegram-ExploreAllStudio-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="README.en.md"><img src="https://img.shields.io/badge/Lang-English-6e6e73?style=for-the-badge" alt="English"></a>
@@ -23,13 +23,13 @@
 
 | 步骤 | 页面 | 解决什么 |
 | --- | --- | --- |
-| 文案 | [专栏](https://app.exploreai.chat/#/claude) | 防封号、充值和使用教程，只讲官方规则和申诉 |
-| 使用 | [对照](https://app.exploreai.chat/#/worth) | 117 个套餐、49 个模型，同样的钱能换多少，可以导入自己的账单 |
-| 充值 | [商店](https://app.exploreai.chat/#/shop) | 推广商品，逐件标明对应的官方档位和需要提交什么。这不是官方渠道 |
-| 环境 | [环境](https://app.exploreai.chat/#/checkcc) | 检查 IP、时区、语言和连通性 |
-| 指纹 | [指纹](https://app.exploreai.chat/#/fingerprint) | 判断 API 背后最像哪个模型 |
+| 文案 | [专栏](https://app.exploreai.chat/claude) | 防封号、充值和使用教程，只讲官方规则和申诉 |
+| 使用 | [对照](https://app.exploreai.chat/worth) | 117 个套餐、49 个模型，同样的钱能换多少，可以导入自己的账单 |
+| 充值 | [商店](https://app.exploreai.chat/shop) | 推广商品，逐件标明对应的官方档位和需要提交什么。这不是官方渠道 |
+| 环境 | [环境](https://app.exploreai.chat/checkcc) | 检查 IP、时区、语言和连通性 |
+| 指纹 | [指纹](https://app.exploreai.chat/fingerprint) | 判断 API 背后最像哪个模型 |
 
-另外每天有一期[早报](https://app.exploreai.chat/#/claude/brief)，筛选 GitHub 和 Product Hunt 上值得看的 AI 项目，三分钟读完。
+另外每天有一期[早报](https://app.exploreai.chat/claude/brief)，筛选 GitHub 和 Product Hunt 上值得看的 AI 项目，三分钟读完。
 
 <table>
   <tr>

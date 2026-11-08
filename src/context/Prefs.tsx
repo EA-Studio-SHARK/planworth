@@ -91,7 +91,6 @@ export function PrefsProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = lang === "en" ? "en" : "zh-CN";
-    document.title = "ExploreAI";
     try {
       localStorage.setItem("exploreai-lang", langPref);
     } catch {

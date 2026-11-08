@@ -2799,6 +2799,11 @@ html[data-theme="dark"] .node-meter { background: #243040; }
   letter-spacing: -0.03em;
 }
 .worth-lede { margin: 0; font-size: 18px; line-height: 1.7; color: var(--muted); max-width: 44em; }
+.seo-snapshot { max-width: 68ch; }
+.seo-snapshot h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 12px; }
+.seo-snapshot p, .seo-snapshot li { font-size: 16px; line-height: 1.6; }
+.seo-snapshot nav { display: flex; flex-wrap: wrap; gap: 12px 18px; margin-top: 16px; }
+.seo-snapshot a { color: var(--blue); }
 .worth-h2 { margin: 0 0 6px; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
 .worth-pickers { margin-bottom: 26px; }
 .worth-pickers .worth-h2:not(:first-child) { margin-top: 30px; }

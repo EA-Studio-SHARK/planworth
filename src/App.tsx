@@ -1,4 +1,4 @@
-import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Shell } from "./components/Shell";
 import { PrefsProvider } from "./context/Prefs";
 import { ArticlePage } from "./pages/Article";
@@ -14,7 +14,7 @@ import { WorthPage } from "./pages/Worth";
 export default function App() {
   return (
     <PrefsProvider>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route element={<Shell />}>
             <Route index element={<HomePage />} />
@@ -36,7 +36,7 @@ export default function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </PrefsProvider>
   );
 }

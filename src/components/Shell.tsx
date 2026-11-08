@@ -4,8 +4,10 @@ import { usePrefs } from "../context/Prefs";
 import { GlassNav } from "./GlassTabs";
 import { LanguageToggle, ThemeToggle } from "./PrefMenus";
 import { ScrollToTop } from "./ScrollToTop";
+import { Seo } from "./Seo";
 
 const GITHUB = "https://github.com/EA-Studio-SHARK/planworth";
+const PUB = import.meta.env.BASE_URL;
 
 export function Shell() {
   const { t } = usePrefs();
@@ -23,9 +25,10 @@ export function Shell() {
   return (
     <div className="app">
       <ScrollToTop />
+      <Seo />
       <header className="chrome">
         <NavLink to="/" className="brand">
-          <img className="brand-mark" src="./avatar.png" alt="ExploreAI" width={36} height={36} />
+          <img className="brand-mark" src={`${PUB}avatar.png`} alt="ExploreAI" width={36} height={36} />
           <strong>{t.brand}</strong>
         </NavLink>
         <div className="chrome-center">
@@ -35,7 +38,7 @@ export function Shell() {
           <LanguageToggle />
           <ThemeToggle />
           <a className="star" href={GITHUB} target="_blank" rel="noreferrer" title="GitHub">
-            <img className="github-mark" src="./github-mark.svg" width={20} height={20} alt="" />
+            <img className="github-mark" src={`${PUB}github-mark.svg`} width={20} height={20} alt="" />
             <span className="visually-hidden">GitHub</span>
           </a>
         </div>

@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/",
+    "title": "ExploreAI：Claude 充值、额度对照、防封号",
+    "description": "看懂防封号和地区规则，算清同样的钱充 Claude、订 ChatGPT 还是买 API 能换多少，充完查环境、核对中转模型。",
+    "titleEn": "ExploreAI: Claude top-up, quota compare, account rules",
+    "descriptionEn": "Read the official rules before you pay, compare what the same budget buys, then check your environment and the model behind an API."
+  },
+  {
+    "path": "/worth",
+    "title": "额度对照：同样的钱各能换多少｜ExploreAI",
+    "description": "选产品、填预算或导入账单，看充 Claude、订 ChatGPT、直连 API 各能换多少。网页聊天的精确配额官方没公开，没公开的都标成推测。",
+    "titleEn": "Quota compare: what the same money buys｜ExploreAI",
+    "descriptionEn": "Pick a product, enter a budget or import a bill, and see what Claude, ChatGPT and direct API each return. Unpublished chat quotas stay marked as estimates."
+  },
+  {
+    "path": "/claude",
+    "title": "Claude 专栏：防封号、充值和上手｜ExploreAI",
+    "description": "封号、申诉、地区政策和充值，只讲官方写明的规则。不教绕过。",
+    "titleEn": "Claude guides: safety, top-up, and getting started｜ExploreAI",
+    "descriptionEn": "Account stops, appeals, region policy and paying. Official rules only. No bypass writeups."
+  },
+  {
+    "path": "/claude/brief",
+    "title": "每日早报｜ExploreAI",
+    "description": "GitHub 和 Product Hunt 上今天值得看的 AI 项目，三分钟读完。",
+    "titleEn": "Daily brief｜ExploreAI",
+    "descriptionEn": "A three-minute pick of AI projects from GitHub and Product Hunt."
+  },
+  {
+    "path": "/fingerprint",
+    "title": "模型指纹：中转说是 Claude，核对一下｜ExploreAI",
+    "description": "把一段回复交给指纹，看它最像哪个模型。用来核对中转，不是官方鉴定。",
+    "titleEn": "Model fingerprint｜ExploreAI",
+    "descriptionEn": "Paste a reply and see which model it most resembles. A check for relays, not an official verdict."
+  },
+  {
+    "path": "/checkcc",
+    "title": "环境检测：时区、语言和出口 IP｜ExploreAI",
+    "description": "看时区、语言和出口 IP 会不会互相打架。结果是提示，不是官方的地区资格查询。",
+    "titleEn": "Environment check｜ExploreAI",
+    "descriptionEn": "See whether timezone, language and exit IP disagree. A hint, not an official eligibility check."
+  },
+  {
+    "path": "/shop",
+    "title": "商店｜ExploreAI",
+    "description": "推广商品，逐件标明对应的官方档位。不是 Anthropic 或 OpenAI 的官方渠道。",
+    "titleEn": "Shop｜ExploreAI",
+    "descriptionEn": "Promoted items, each labelled with its official tier. Not an Anthropic or OpenAI channel."
+  },
+  {
+    "path": "/partners",
+    "title": "合作｜ExploreAI",
+    "description": "想上架商品、供稿，或者把工具接到自己的站，都可以聊。只做说得清楚的合作。",
+    "titleEn": "Partners｜ExploreAI",
+    "descriptionEn": "List a product, contribute a piece, or connect a tool. Only partnerships that can be explained plainly."
+  },
+  {
+    "path": "/disclaimer",
+    "title": "免责声明｜ExploreAI",
+    "description": "ExploreAI 是个人工具站，不是模型厂商的官方站点。对照、指纹、环境在浏览器本地跑；商店是推广位。",
+    "titleEn": "Disclaimer｜ExploreAI",
+    "descriptionEn": "ExploreAI is a personal tool site, not an official model vendor. Compare, fingerprint and environment run in the browser. The shop is a promotion slot."
+  }
+]

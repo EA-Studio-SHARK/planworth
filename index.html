@@ -2,17 +2,32 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./avatar.png" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f6f6" />
     <meta
       name="description"
-      content="ExploreAI 充值一件套：看懂防封号规则，算清同样的钱能换多少 token，充值后查环境、核对模型。"
+      content="看懂防封号和地区规则，算清同样的钱充 Claude、订 ChatGPT 还是买 API 能换多少，充完查环境、核对中转模型。"
     />
-    <title>ExploreAI</title>
+    <link rel="canonical" href="https://app.exploreai.chat/" />
+    <meta property="og:title" content="ExploreAI：Claude 充值、额度对照、防封号" />
+    <meta property="og:description" content="看懂防封号和地区规则，算清同样的钱充 Claude、订 ChatGPT 还是买 API 能换多少，充完查环境、核对中转模型。" />
+    <meta property="og:url" content="https://app.exploreai.chat/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://app.exploreai.chat/og.png" />
+    <meta property="og:site_name" content="ExploreAI" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://app.exploreai.chat/og.png" />
+    <title>ExploreAI：Claude 充值、额度对照、防封号</title>
     <script>
       (function () {
         try {
+          var h = location.hash;
+          if (h.length > 2 && h.charAt(1) === "/") {
+            history.replaceState(null, "", h.slice(1) + location.search);
+          }
           var t = localStorage.getItem("exploreai-theme");
           if (t !== "dark" && t !== "light") {
             t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";

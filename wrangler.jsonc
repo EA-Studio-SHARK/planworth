@@ -3,7 +3,9 @@
   "name": "exploreai-app",
   "compatibility_date": "2026-10-19",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "html_handling": "drop-trailing-slash"
   },
   "routes": [{ "pattern": "app.exploreai.chat", "custom_domain": true }]
 }
