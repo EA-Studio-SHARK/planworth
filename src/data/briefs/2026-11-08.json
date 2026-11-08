@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-08",
+  "days": 1,
+  "headline": "今天的主线：代理开始自己出画面。有人做无头三维引擎，有人让编程代理把片子逐帧写成代码，也有人用技能直接出短视频动画。",
+  "headlineEn": "Today's thread: agents are starting to make the picture themselves. One built a headless 3D engine, another has a coding agent write each frame, and a third ships skills that render short animations.",
+  "lead": {
+    "source": "github",
+    "name": "voyager-so/vork",
+    "url": "https://github.com/voyager-so/vork",
+    "stars": 885,
+    "zh": "给代理用的无头三维和特效引擎，仓库写明现在是研究预览。",
+    "en": "A headless 3D and effects engine meant for agents. The repo calls the current release a research preview.",
+    "why": "它不让模型只写分镜。README 里的样片是车开进夜里，树林被场景着色器画成青色线框，运动部分是渲染出来的。",
+    "whyEn": "It does not stop at a shot list. The README's sample is a car driving into night, with the forest drawn as a cyan wireframe by a scene shader, and the moving parts actually rendered."
+  },
+  "sections": [
+    {
+      "title": "画面怎么做出来",
+      "titleEn": "How the picture gets made",
+      "items": [
+        {
+          "source": "github",
+          "name": "sarpstar/cinecode",
+          "url": "https://github.com/sarpstar/cinecode",
+          "stars": 829,
+          "zh": "在 Claude Code 或 Cursor 里，让代理写剧本、用代码出每一帧，再交一个 MP4。",
+          "en": "Inside Claude Code or Cursor, an agent writes the script, builds each frame in code, and hands back an MP4."
+        },
+        {
+          "source": "github",
+          "name": "artemnovitckii/claude-animation-skills",
+          "url": "https://github.com/artemnovitckii/claude-animation-skills",
+          "stars": 487,
+          "zh": "六个 Claude Code 技能，不用素材就能出短视频动画，例如输入路线让它在本机渲染。",
+          "en": "Six Claude Code skills that render short animations without footage, including a route you type and it renders locally.",
+          "related": {
+            "to": "/articles/claude-code-start",
+            "label": "Claude Code 怎么装",
+            "labelEn": "How to install Claude Code"
+          }
+        },
+        {
+          "source": "github",
+          "name": "benjitaylor/skills",
+          "url": "https://github.com/benjitaylor/skills",
+          "stars": 2489,
+          "gain": 243,
+          "zh": "给编程代理用的设计和动效技能，能搭仿产品界面，并拍下来让代理自己检查。",
+          "en": "Design and motion skills for coding agents, including faux product UI that the agent can film and check."
+        },
+        {
+          "source": "producthunt",
+          "name": "Capnot",
+          "url": "https://www.producthunt.com/products/capnot",
+          "zh": "上架文案只说一件事：静音时也要让屏幕演示看得清。",
+          "en": "The listing says one thing: screen demos should stay clear even when muted."
+        },
+        {
+          "source": "producthunt",
+          "name": "Sequence Tool",
+          "url": "https://www.producthunt.com/products/sequence-tool",
+          "zh": "用改文字的方式剪长录像，介绍里说最后得到整理过的故事。",
+          "en": "The listing says you edit long recordings by changing the words, and end up with a polished story."
+        }
+      ]
+    },
+    {
+      "title": "代理留下什么证据",
+      "titleEn": "What the agent leaves behind",
+      "items": [
+        {
+          "source": "github",
+          "name": "chutingyean/Agent-Cockpit",
+          "url": "https://github.com/chutingyean/Agent-Cockpit",
+          "stars": 454,
+          "zh": "本地白板加 MCP：每个结论要能追到那次运行和它依赖的代码，断了卡片会变红。",
+          "en": "A local whiteboard plus MCP. Each claim has to trace to the run and the code it used, and a broken link turns the card red."
+        },
+        {
+          "source": "github",
+          "name": "EricJujianZou/rederive",
+          "url": "https://github.com/EricJujianZou/rederive",
+          "stars": 436,
+          "zh": "一个编程代理技能：只提问，不讲解，让你自己把代码库的设计决定重新推一遍。",
+          "en": "A coding-agent skill that only asks questions. It will not explain, so you re-derive the codebase's design decisions yourself."
+        },
+        {
+          "source": "github",
+          "name": "wangzan101/Mika",
+          "url": "https://github.com/wangzan101/Mika",
+          "stars": 7615,
+          "gain": 199,
+          "zh": "安卓上的本地代理。你说要做什么，它在后台屏幕里操作应用和网页，前台还能继续用手机。",
+          "en": "An on-device Android agent. You say the task, and it works apps and the web on a hidden screen while you keep using the phone."
+        },
+        {
+          "source": "producthunt",
+          "name": "Exa Monitors v2",
+          "url": "https://www.producthunt.com/products/exa-ai",
+          "zh": "介绍写的是定时网页搜索，到点去叫你的代理，标价是每千次运行 2 美元。",
+          "en": "The listing describes scheduled web search that calls your agent, priced at $2 per thousand runs."
+        }
+      ]
+    }
+  ]
+}
