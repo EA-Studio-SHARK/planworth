@@ -1,11 +1,11 @@
 {
-  "snapshotDate": "2026-11-07",
+  "snapshotDate": "2026-11-08",
   "source": "GitHub REST Search API",
   "items": [
     {
       "owner": "thedotmack",
       "repo": "claude-mem",
-      "stars": 114056
+      "stars": 114511
     },
     {
       "owner": "deepseek-ai",
@@ -15,32 +15,32 @@
     {
       "owner": "Leonxlnx",
       "repo": "taste-skill",
-      "stars": 111252
+      "stars": 111674
     },
     {
       "owner": "affaan-m",
       "repo": "ECC",
-      "stars": 298628
+      "stars": 299201
     },
     {
       "owner": "stablyai",
       "repo": "orca",
-      "stars": 117895
+      "stars": 118608
     },
     {
       "owner": "DietrichGebert",
       "repo": "ponytail",
-      "stars": 185888
+      "stars": 186404
     },
     {
       "owner": "paperclipai",
       "repo": "paperclip",
-      "stars": 111765
+      "stars": 112038
     },
     {
       "owner": "Graphify-Labs",
       "repo": "graphify",
-      "stars": 143594
+      "stars": 144012
     },
     {
       "owner": "cheaper-inference",
@@ -50,12 +50,12 @@
     {
       "owner": "NousResearch",
       "repo": "hermes-agent",
-      "stars": 261227
+      "stars": 261524
     },
     {
       "owner": "firecrawl",
       "repo": "firecrawl",
-      "stars": 199283
+      "stars": 199535
     },
     {
       "owner": "tt-a1i",
@@ -80,7 +80,7 @@
     {
       "owner": "f",
       "repo": "prompts.chat",
-      "stars": 176083
+      "stars": 176247
     },
     {
       "owner": "ruvnet",
@@ -90,7 +90,7 @@
     {
       "owner": "browser-use",
       "repo": "browser-use",
-      "stars": 120219
+      "stars": 120270
     },
     {
       "owner": "OpenHands",
@@ -115,7 +115,7 @@
     {
       "owner": "langchain-ai",
       "repo": "langchain",
-      "stars": 149139
+      "stars": 149177
     },
     {
       "owner": "infiniflow",
@@ -130,7 +130,7 @@
     {
       "owner": "langflow-ai",
       "repo": "langflow",
-      "stars": 156396
+      "stars": 156426
     },
     {
       "owner": "hacksider",
@@ -140,12 +140,12 @@
     {
       "owner": "Significant-Gravitas",
       "repo": "AutoGPT",
-      "stars": 187929
+      "stars": 187936
     },
     {
       "owner": "google-gemini",
       "repo": "gemini-cli",
-      "stars": 108756
+      "stars": 108770
     },
     {
       "owner": "heygen-com",
@@ -155,22 +155,22 @@
     {
       "owner": "deepseek-ai",
       "repo": "dsh-superagent-prototype",
-      "stars": 20299
+      "stars": 20835
     },
     {
       "owner": "ccch1mneyyy",
       "repo": "dsh-Go",
-      "stars": 13022
+      "stars": 14431
     },
     {
       "owner": "heydamir",
       "repo": "unslop",
-      "stars": 10780
+      "stars": 11392
     },
     {
       "owner": "wangzan101",
       "repo": "Mika",
-      "stars": 7416
+      "stars": 7615
     },
     {
       "owner": "amosblomqvist",
@@ -180,12 +180,12 @@
     {
       "owner": "Jakeschincariol",
       "repo": "day-trader-skill",
-      "stars": 5790
+      "stars": 5994
     },
     {
       "owner": "patch-gg",
       "repo": "pixelfx",
-      "stars": 5613
+      "stars": 5846
     },
     {
       "owner": "aicodeking",
@@ -195,27 +195,27 @@
     {
       "owner": "t3dotgg",
       "repo": "tstack",
-      "stars": 3190
+      "stars": 3242
     },
     {
       "owner": "KKKKhazix",
       "repo": "agent-autoloop",
-      "stars": 3710
+      "stars": 3966
     },
     {
       "owner": "haydenschmitty",
       "repo": "floorplan",
-      "stars": 3085
+      "stars": 3178
     },
     {
       "owner": "modelflare-ai",
       "repo": "AnyModelBot",
-      "stars": 2728
+      "stars": 2734
     },
     {
       "owner": "qybaihe",
       "repo": "bla",
-      "stars": 2567
+      "stars": 2826
     },
     {
       "owner": "alchaincyf",
@@ -230,22 +230,22 @@
     {
       "owner": "elvarofficial",
       "repo": "teardown",
-      "stars": 2439
+      "stars": 2558
     },
     {
       "owner": "benjitaylor",
       "repo": "skills",
-      "stars": 2246
+      "stars": 2489
     },
     {
       "owner": "CopilotKit",
       "repo": "OpenDuet",
-      "stars": 1975
+      "stars": 1988
     },
     {
       "owner": "DenisSergeevitch",
       "repo": "ex-ussr-kinship-research",
-      "stars": 2072
+      "stars": 2143
     },
     {
       "owner": "cranebeaker",
@@ -255,47 +255,47 @@
     {
       "owner": "caru-ini",
       "repo": "stack-diagram",
-      "stars": 1974
+      "stars": 2075
     },
     {
       "owner": "lexifina",
       "repo": "global-law",
-      "stars": 1839
+      "stars": 1855
     },
     {
       "owner": "andyhuo520",
       "repo": "digital-human-koubo",
-      "stars": 1851
+      "stars": 1861
     },
     {
       "owner": "morganlinton",
       "repo": "BeautifulRust",
-      "stars": 1746
+      "stars": 1756
     },
     {
       "owner": "Motionsites-AI",
       "repo": "claude-skill",
-      "stars": 1761
+      "stars": 1803
     },
     {
       "owner": "udhaykumarbala",
       "repo": "cleanyourtv-app",
-      "stars": 1750
+      "stars": 1790
     },
     {
       "owner": "JuneYaooo",
       "repo": "rea-video",
-      "stars": 3094
+      "stars": 3698
     },
     {
       "owner": "mromidev",
       "repo": "claude-animated-shorts",
-      "stars": 2037
+      "stars": 2231
     },
     {
       "owner": "daveebbelaar",
       "repo": "bama",
-      "stars": 1645
+      "stars": 1672
     },
     {
       "owner": "reason-machines",
@@ -305,22 +305,22 @@
     {
       "owner": "anonnerdfrenzy",
       "repo": "survival-llm",
-      "stars": 1527
+      "stars": 1545
     },
     {
       "owner": "ZiChuanLan",
       "repo": "agent-purge",
-      "stars": 1355
+      "stars": 1412
     },
     {
       "owner": "NiazMorshed2007",
       "repo": "reanimate",
-      "stars": 1321
+      "stars": 1377
     },
     {
       "owner": "N1nEmAn",
       "repo": "sapper-v2",
-      "stars": 1491
+      "stars": 1530
     },
     {
       "owner": "aicodeking",
@@ -330,7 +330,7 @@
     {
       "owner": "emanuele-em",
       "repo": "kanzo",
-      "stars": 1071
+      "stars": 1102
     },
     {
       "owner": "Noniv",
@@ -345,7 +345,7 @@
     {
       "owner": "RikiyaT",
       "repo": "lm_understand-logs",
-      "stars": 1071
+      "stars": 1108
     },
     {
       "owner": "VITASID57",
@@ -360,27 +360,27 @@
     {
       "owner": "yzlin286-wq",
       "repo": "Deepscient",
-      "stars": 918
+      "stars": 952
     },
     {
       "owner": "jackwener",
       "repo": "DSH-Android",
-      "stars": 851
+      "stars": 867
     },
     {
       "owner": "yjid",
       "repo": "kensaku",
-      "stars": 1157
+      "stars": 1324
     },
     {
       "owner": "huaxialucaicaizi",
       "repo": "ai-startup-skills",
-      "stars": 920
+      "stars": 921
     },
     {
       "owner": "konlu",
       "repo": "story-studio",
-      "stars": 786
+      "stars": 806
     },
     {
       "owner": "mihirgupta0900",
@@ -390,22 +390,22 @@
     {
       "owner": "Vibha-Ramprakash",
       "repo": "claude-video-effects",
-      "stars": 746
+      "stars": 773
     },
     {
       "owner": "rossark0",
       "repo": "rossark-motion-skill",
-      "stars": 731
+      "stars": 744
     },
     {
       "owner": "dominikmartn",
       "repo": "harp",
-      "stars": 709
+      "stars": 710
     },
     {
       "owner": "zgx949",
       "repo": "ai-pojia",
-      "stars": 720
+      "stars": 746
     },
     {
       "owner": "Leonxlnx",
@@ -415,7 +415,7 @@
     {
       "owner": "phone-harness",
       "repo": "mcp",
-      "stars": 732
+      "stars": 747
     },
     {
       "owner": "andrew-babo",
@@ -435,17 +435,17 @@
     {
       "owner": "alchaincyf",
       "repo": "huashu-bird-sticker",
-      "stars": 703
+      "stars": 706
     },
     {
       "owner": "routerhubSI",
       "repo": "uncensored-ai-api",
-      "stars": 606
+      "stars": 429
     },
     {
       "owner": "XiaoyeCodes",
       "repo": "code-animation-prompts",
-      "stars": 712
+      "stars": 770
     },
     {
       "owner": "kanaworksai-hue",
@@ -455,27 +455,27 @@
     {
       "owner": "zhanghao123vip",
       "repo": "ai-manju-skills",
-      "stars": 607
+      "stars": 617
     },
     {
       "owner": "mochiiwuff",
       "repo": "capri-desktop",
-      "stars": 583
+      "stars": 593
     },
     {
       "owner": "actionow-ai",
       "repo": "vvv",
-      "stars": 526
+      "stars": 527
     },
     {
       "owner": "andyhuo520",
       "repo": "vibe-knowledge",
-      "stars": 549
+      "stars": 562
     },
     {
       "owner": "liuhaisi2026212-maker",
       "repo": "taishang-laojun",
-      "stars": 509
+      "stars": 517
     },
     {
       "owner": "HeyChengC",
@@ -485,147 +485,147 @@
     {
       "owner": "morluto",
       "repo": "rea",
-      "stars": 438245
+      "stars": 441129
     },
     {
       "owner": "mattpocock",
       "repo": "skills",
-      "stars": 316793
+      "stars": 317746
     },
     {
       "owner": "obra",
       "repo": "superpowers",
-      "stars": 313653
+      "stars": 314129
     },
     {
       "owner": "anomalyco",
       "repo": "opencode",
-      "stars": 225081
+      "stars": 225309
     },
     {
       "owner": "ultraworkers",
       "repo": "claw-code",
-      "stars": 194951
+      "stars": 194943
     },
     {
       "owner": "anthropics",
       "repo": "skills",
-      "stars": 188202
+      "stars": 188814
     },
     {
       "owner": "ollama",
       "repo": "ollama",
-      "stars": 186154
+      "stars": 186288
     },
     {
       "owner": "huggingface",
       "repo": "transformers",
-      "stars": 168607
+      "stars": 168636
     },
     {
       "owner": "msitarzewski",
       "repo": "agency-agents",
-      "stars": 166970
+      "stars": 167122
     },
     {
       "owner": "langgenius",
       "repo": "dify",
-      "stars": 160581
+      "stars": 160635
     },
     {
       "owner": "Snailclimb",
       "repo": "JavaGuide",
-      "stars": 159453
+      "stars": 159462
     },
     {
       "owner": "open-webui",
       "repo": "open-webui",
-      "stars": 157956
+      "stars": 158045
     },
     {
       "owner": "anthropics",
       "repo": "claude-code",
-      "stars": 154810
+      "stars": 154911
     },
     {
       "owner": "farion1231",
       "repo": "cc-switch",
-      "stars": 152383
+      "stars": 152593
     },
     {
       "owner": "Shubhamsaboo",
       "repo": "awesome-llm-apps",
-      "stars": 144048
+      "stars": 144124
     },
     {
       "owner": "garrytan",
       "repo": "gstack",
-      "stars": 140473
+      "stars": 140667
     },
     {
       "owner": "harry0703",
       "repo": "MoneyPrinterTurbo",
-      "stars": 140285
+      "stars": 140772
     },
     {
       "owner": "ggml-org",
       "repo": "llama.cpp",
-      "stars": 133586
+      "stars": 133666
     },
     {
       "owner": "openai",
       "repo": "codex",
-      "stars": 133494
+      "stars": 133590
     },
     {
       "owner": "VoltAgent",
       "repo": "awesome-design-md",
-      "stars": 125918
+      "stars": 126036
     },
     {
       "owner": "TauricResearch",
       "repo": "TradingAgents",
-      "stars": 121031
+      "stars": 121191
     },
     {
       "owner": "earendil-works",
       "repo": "pi",
-      "stars": 120516
+      "stars": 120653
     },
     {
       "owner": "JuliusBrussee",
       "repo": "caveman",
-      "stars": 118026
+      "stars": 118177
     },
     {
       "owner": "addyosmani",
       "repo": "agent-skills",
-      "stars": 113747
+      "stars": 113910
     },
     {
       "owner": "Panniantong",
       "repo": "Agent-Reach",
-      "stars": 109714
+      "stars": 110019
     },
     {
       "owner": "looplj",
       "repo": "reveric",
-      "stars": 704
+      "stars": 714
     },
     {
       "owner": "divagr18",
       "repo": "qwenputer",
-      "stars": 701
+      "stars": 727
     },
     {
       "owner": "t8y2",
       "repo": "motty",
-      "stars": 695
+      "stars": 709
     },
     {
       "owner": "blakeandersonw",
       "repo": "ai-app-playbook",
-      "stars": 632
+      "stars": 638
     },
     {
       "owner": "Balanov",
@@ -635,12 +635,12 @@
     {
       "owner": "lesnolie",
       "repo": "Tigris",
-      "stars": 613
+      "stars": 621
     },
     {
       "owner": "tang1693",
       "repo": "KIKUmap",
-      "stars": 660
+      "stars": 759
     },
     {
       "owner": "WoYun520",
@@ -650,27 +650,67 @@
     {
       "owner": "cutetailbud",
       "repo": "ff-ruyijs",
-      "stars": 861
+      "stars": 891
     },
     {
       "owner": "Sandflow-ai",
       "repo": "sand3d",
-      "stars": 810
+      "stars": 1061
     },
     {
       "owner": "hevnsnt",
       "repo": "CVEngine",
-      "stars": 636
+      "stars": 679
     },
     {
       "owner": "islandmed",
       "repo": "SculptForge",
-      "stars": 616
+      "stars": 631
     },
     {
       "owner": "Lee-xeo",
       "repo": "Claude-Cage",
-      "stars": 498
+      "stars": 580
+    },
+    {
+      "owner": "voyager-so",
+      "repo": "vork",
+      "stars": 885
+    },
+    {
+      "owner": "sarpstar",
+      "repo": "cinecode",
+      "stars": 829
+    },
+    {
+      "owner": "wangrongding",
+      "repo": "tv-fresh",
+      "stars": 709
+    },
+    {
+      "owner": "jss8649",
+      "repo": "quiet-tizen",
+      "stars": 497
+    },
+    {
+      "owner": "artemnovitckii",
+      "repo": "claude-animation-skills",
+      "stars": 487
+    },
+    {
+      "owner": "mhfed",
+      "repo": "vn-law-check",
+      "stars": 471
+    },
+    {
+      "owner": "chutingyean",
+      "repo": "Agent-Cockpit",
+      "stars": 454
+    },
+    {
+      "owner": "EricJujianZou",
+      "repo": "rederive",
+      "stars": 436
     }
   ]
 }
