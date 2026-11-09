@@ -4,7 +4,6 @@ import { BrandMark } from "../components/BrandMark";
 import { usePrefs } from "../context/Prefs";
 import { loc } from "../lib/localize";
 import { formatCny, SHOP_NAME, SHOP_SNAPSHOT, SHOP_URL, shopItems } from "../data/shop";
-import { CNY_PER_USD, cny, usd } from "../lib/worth";
 
 export function ShopPage() {
   const { t, lang } = usePrefs();
@@ -23,7 +22,6 @@ export function ShopPage() {
 
       <div className="shop2-grid">
         {main.map((item, i) => {
-          const officialCny = item.officialUsd ? item.officialUsd * CNY_PER_USD : null;
           const out = item.stock <= 0;
           return (
             <article key={item.id} className={`shop2-card ${i === 0 ? "is-lead" : ""}`}>
@@ -34,11 +32,6 @@ export function ShopPage() {
               <h2>{en ? item.nameEn : item.name}</h2>
               <p className="shop2-map">{c.maps(en ? item.officialEquivalentEn : item.officialEquivalent)}</p>
               <p className="shop2-price">{formatCny(item.priceCny)}</p>
-              <p className="shop2-diff">
-                {officialCny && item.officialUsd
-                  ? c.diff(usd(item.officialUsd, 0), cny(officialCny), cny(item.priceCny - officialCny))
-                  : c.noDiff}
-              </p>
               <p className={`shop2-cred ${item.credential === "sk" || item.credential === "token" ? "is-warn" : ""}`}>
                 {c.credential[item.credential]}
               </p>
