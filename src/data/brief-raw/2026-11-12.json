@@ -1,0 +1,969 @@
+{
+  "date": "2026-11-12",
+  "baselineDate": "2026-11-11",
+  "days": 1,
+  "repos": [
+    {
+      "owner": "morluto",
+      "repo": "rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 453033,
+      "createdAt": "2026-04-14",
+      "isNew": false,
+      "gain": 2887
+    },
+    {
+      "owner": "Lee-xeo",
+      "repo": "Claude-Cage",
+      "url": "https://github.com/Lee-xeo/Claude-Cage",
+      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+      "language": "Go",
+      "stars": 3526,
+      "createdAt": "2026-10-31",
+      "isNew": true,
+      "gain": 2231
+    },
+    {
+      "owner": "janestreet",
+      "repo": "agent_skills",
+      "url": "https://github.com/janestreet/agent_skills",
+      "description": "Agent skills",
+      "language": null,
+      "stars": 6007,
+      "createdAt": "2026-11-03",
+      "isNew": true,
+      "gain": 2120
+    },
+    {
+      "owner": "mattpocock",
+      "repo": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 322136,
+      "createdAt": "2026-02-03",
+      "isNew": false,
+      "gain": 1143
+    },
+    {
+      "owner": "ccch1mneyyy",
+      "repo": "dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "stars": 19850,
+      "createdAt": "2026-10-25",
+      "isNew": true,
+      "gain": 1117
+    },
+    {
+      "owner": "stablyai",
+      "repo": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 122515,
+      "createdAt": "2026-03-17",
+      "isNew": false,
+      "gain": 1000
+    },
+    {
+      "owner": "heydamir",
+      "repo": "unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "language": "JavaScript",
+      "stars": 14610,
+      "createdAt": "2026-10-29",
+      "isNew": true,
+      "gain": 827
+    },
+    {
+      "owner": "anthropics",
+      "repo": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 193211,
+      "createdAt": "2025-09-22",
+      "isNew": false,
+      "gain": 827
+    },
+    {
+      "owner": "addyosmani",
+      "repo": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 116026,
+      "createdAt": "2026-02-15",
+      "isNew": false,
+      "gain": 814
+    },
+    {
+      "owner": "DietrichGebert",
+      "repo": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 189218,
+      "createdAt": "2026-06-12",
+      "isNew": false,
+      "gain": 784
+    },
+    {
+      "owner": "expo",
+      "repo": "exact",
+      "url": "https://github.com/expo/exact",
+      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+      "language": "Rust",
+      "stars": 2974,
+      "createdAt": "2026-11-02",
+      "isNew": true,
+      "gain": 754
+    },
+    {
+      "owner": "JuneYaooo",
+      "repo": "rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+      "language": "Python",
+      "stars": 7124,
+      "createdAt": "2026-10-29",
+      "isNew": true,
+      "gain": 704
+    },
+    {
+      "owner": "harry0703",
+      "repo": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 142633,
+      "createdAt": "2024-03-11",
+      "isNew": false,
+      "gain": 634
+    },
+    {
+      "owner": "Leonxlnx",
+      "repo": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 113655,
+      "createdAt": "2026-02-19",
+      "isNew": false,
+      "gain": 633
+    },
+    {
+      "owner": "lxe",
+      "repo": "phoneuse",
+      "url": "https://github.com/lxe/phoneuse",
+      "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
+      "language": "Python",
+      "stars": 611,
+      "createdAt": "2026-11-07",
+      "isNew": true,
+      "gain": 611
+    },
+    {
+      "owner": "affaan-m",
+      "repo": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 301436,
+      "createdAt": "2026-01-18",
+      "isNew": false,
+      "gain": 600
+    },
+    {
+      "owner": "obra",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 316346,
+      "createdAt": "2025-10-09",
+      "isNew": false,
+      "gain": 568
+    },
+    {
+      "owner": "Graphify-Labs",
+      "repo": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 146214,
+      "createdAt": "2026-04-03",
+      "isNew": false,
+      "gain": 541
+    },
+    {
+      "owner": "phuryn",
+      "repo": "product-engineering",
+      "url": "https://github.com/phuryn/product-engineering",
+      "description": "44 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.",
+      "language": "Python",
+      "stars": 533,
+      "createdAt": "2026-10-29",
+      "isNew": true,
+      "gain": 533
+    },
+    {
+      "owner": "kyy-logs",
+      "repo": "code-review-gate-skill",
+      "url": "https://github.com/kyy-logs/code-review-gate-skill",
+      "description": "Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.",
+      "language": "Python",
+      "stars": 472,
+      "createdAt": "2026-10-29",
+      "isNew": true,
+      "gain": 472
+    },
+    {
+      "owner": "JDhruv14",
+      "repo": "line-art-animation",
+      "url": "https://github.com/JDhruv14/line-art-animation",
+      "description": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
+      "language": "TypeScript",
+      "stars": 458,
+      "createdAt": "2026-11-10",
+      "isNew": true,
+      "gain": 458
+    },
+    {
+      "owner": "VoltAgent",
+      "repo": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "language": null,
+      "stars": 126948,
+      "createdAt": "2026-03-31",
+      "isNew": false,
+      "gain": 451
+    },
+    {
+      "owner": "win4r",
+      "repo": "video-director",
+      "url": "https://github.com/win4r/video-director",
+      "description": "A Claude skill for directing, building and verifying code-rendered videos (HTML/Canvas → MP4): principles, gated workflow, QA scripts and evals.",
+      "language": "Python",
+      "stars": 449,
+      "createdAt": "2026-10-28",
+      "isNew": true,
+      "gain": 449
+    },
+    {
+      "owner": "appariciojunior",
+      "repo": "video-editor-skills",
+      "url": "https://github.com/appariciojunior/video-editor-skills",
+      "description": "Skills that teach Claude Code to be a first-pass video editor in DaVinci Resolve: transcript cuts, vlog pacing, B-roll, music & SFX, clean captions, motion graphics, YouTube export. CC BY-NC 4.0 (no commercial use).",
+      "language": null,
+      "stars": 441,
+      "createdAt": "2026-10-23",
+      "isNew": true,
+      "gain": 441
+    },
+    {
+      "owner": "firecrawl",
+      "repo": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "language": "TypeScript",
+      "stars": 200993,
+      "createdAt": "2024-04-15",
+      "isNew": false,
+      "gain": 434
+    },
+    {
+      "owner": "thedotmack",
+      "repo": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 116274,
+      "createdAt": "2025-08-31",
+      "isNew": false,
+      "gain": 417
+    },
+    {
+      "owner": "shanselman",
+      "repo": "gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "language": "Python",
+      "stars": 2085,
+      "createdAt": "2026-11-03",
+      "isNew": true,
+      "gain": 401
+    },
+    {
+      "owner": "farion1231",
+      "repo": "cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 153717,
+      "createdAt": "2025-08-04",
+      "isNew": false,
+      "gain": 343
+    },
+    {
+      "owner": "patch-gg",
+      "repo": "pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "language": "JavaScript",
+      "stars": 7015,
+      "createdAt": "2026-10-30",
+      "isNew": true,
+      "gain": 333
+    },
+    {
+      "owner": "deepseek-ai",
+      "repo": "dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "language": "TypeScript",
+      "stars": 22531,
+      "createdAt": "2026-10-31",
+      "isNew": true,
+      "gain": 327
+    },
+    {
+      "owner": "RunanywhereAI",
+      "repo": "trnrt",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "description": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
+      "language": "Python",
+      "stars": 1330,
+      "createdAt": "2026-10-30",
+      "isNew": true,
+      "gain": 308
+    },
+    {
+      "owner": "qybaihe",
+      "repo": "bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "language": "TypeScript",
+      "stars": 5325,
+      "createdAt": "2026-10-25",
+      "isNew": true,
+      "gain": 302
+    },
+    {
+      "owner": "Goblinmine",
+      "repo": "homelab-diagram",
+      "url": "https://github.com/Goblinmine/homelab-diagram",
+      "description": "Renders an r/homelab-style network diagram from a YAML inventory (Python → SVG/PNG). Written with Claude.",
+      "language": "Python",
+      "stars": 874,
+      "createdAt": "2026-11-07",
+      "isNew": true,
+      "gain": 301
+    },
+    {
+      "owner": "anomalyco",
+      "repo": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 226205,
+      "createdAt": "2025-04-30",
+      "isNew": false,
+      "gain": 290
+    },
+    {
+      "owner": "NousResearch",
+      "repo": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 262760,
+      "createdAt": "2025-07-22",
+      "isNew": false,
+      "gain": 289
+    },
+    {
+      "owner": "JuliusBrussee",
+      "repo": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 119158,
+      "createdAt": "2026-04-04",
+      "isNew": false,
+      "gain": 248
+    },
+    {
+      "owner": "paperclipai",
+      "repo": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 113209,
+      "createdAt": "2026-03-02",
+      "isNew": false,
+      "gain": 247
+    },
+    {
+      "owner": "haydenschmitty",
+      "repo": "floorplan",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "language": "JavaScript",
+      "stars": 3695,
+      "createdAt": "2026-10-27",
+      "isNew": true,
+      "gain": 241
+    },
+    {
+      "owner": "TauricResearch",
+      "repo": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 122133,
+      "createdAt": "2024-12-28",
+      "isNew": false,
+      "gain": 239
+    },
+    {
+      "owner": "earendil-works",
+      "repo": "pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "stars": 121498,
+      "createdAt": "2025-08-09",
+      "isNew": false,
+      "gain": 234
+    },
+    {
+      "owner": "Panniantong",
+      "repo": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 111150,
+      "createdAt": "2026-02-24",
+      "isNew": false,
+      "gain": 229
+    },
+    {
+      "owner": "elvarofficial",
+      "repo": "teardown",
+      "url": "https://github.com/elvarofficial/teardown",
+      "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+      "language": "JavaScript",
+      "stars": 3185,
+      "createdAt": "2026-10-30",
+      "isNew": true,
+      "gain": 198
+    },
+    {
+      "owner": "ggml-org",
+      "repo": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 134167,
+      "createdAt": "2023-03-10",
+      "isNew": false,
+      "gain": 194
+    },
+    {
+      "owner": "DIYgod",
+      "repo": "pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "description": "Let AI agents use your phone, with you in the loop.",
+      "language": "Go",
+      "stars": 1892,
+      "createdAt": "2026-11-06",
+      "isNew": true,
+      "gain": 190
+    },
+    {
+      "owner": "modelflare-ai",
+      "repo": "AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+      "language": "Python",
+      "stars": 3230,
+      "createdAt": "2026-10-27",
+      "isNew": true,
+      "gain": 188
+    },
+    {
+      "owner": "mromidev",
+      "repo": "claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "language": "TypeScript",
+      "stars": 2978,
+      "createdAt": "2026-11-01",
+      "isNew": true,
+      "gain": 186
+    },
+    {
+      "owner": "wangzan101",
+      "repo": "Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "language": "Kotlin",
+      "stars": 8263,
+      "createdAt": "2026-10-29",
+      "isNew": true,
+      "gain": 182
+    },
+    {
+      "owner": "sarpstar",
+      "repo": "cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "language": "Python",
+      "stars": 2229,
+      "createdAt": "2026-11-03",
+      "isNew": true,
+      "gain": 165
+    },
+    {
+      "owner": "openai",
+      "repo": "codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 134942,
+      "createdAt": "2025-04-13",
+      "isNew": false,
+      "gain": 165
+    },
+    {
+      "owner": "garrytan",
+      "repo": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 141273,
+      "createdAt": "2026-03-11",
+      "isNew": false,
+      "gain": 163
+    },
+    {
+      "owner": "anthropics",
+      "repo": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 155363,
+      "createdAt": "2025-02-22",
+      "isNew": false,
+      "gain": 148
+    },
+    {
+      "owner": "caru-ini",
+      "repo": "stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "language": "TypeScript",
+      "stars": 2397,
+      "createdAt": "2026-11-01",
+      "isNew": true,
+      "gain": 140
+    },
+    {
+      "owner": "browser-use",
+      "repo": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "language": "Python",
+      "stars": 120752,
+      "createdAt": "2024-10-31",
+      "isNew": false,
+      "gain": 138
+    },
+    {
+      "owner": "ollama",
+      "repo": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 186713,
+      "createdAt": "2023-06-26",
+      "isNew": false,
+      "gain": 131
+    },
+    {
+      "owner": "N1nEmAn",
+      "repo": "sapper-v2",
+      "url": "https://github.com/N1nEmAn/sapper-v2",
+      "description": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
+      "language": "Python",
+      "stars": 1993,
+      "createdAt": "2026-10-30",
+      "isNew": true,
+      "gain": 128
+    },
+    {
+      "owner": "huggingface",
+      "repo": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "language": "Python",
+      "stars": 168882,
+      "createdAt": "2018-10-29",
+      "isNew": false,
+      "gain": 128
+    },
+    {
+      "owner": "msitarzewski",
+      "repo": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 167796,
+      "createdAt": "2025-10-13",
+      "isNew": false,
+      "gain": 121
+    },
+    {
+      "owner": "KKKKhazix",
+      "repo": "agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "language": "TypeScript",
+      "stars": 4541,
+      "createdAt": "2026-11-03",
+      "isNew": true,
+      "gain": 106
+    },
+    {
+      "owner": "Sandflow-ai",
+      "repo": "sand3d",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "description": "3D modeling in Python, built for LLMs.",
+      "language": "HTML",
+      "stars": 1865,
+      "createdAt": "2026-11-03",
+      "isNew": true,
+      "gain": 106
+    },
+    {
+      "owner": "benjitaylor",
+      "repo": "skills",
+      "url": "https://github.com/benjitaylor/skills",
+      "description": "Skills for AI coding agents.",
+      "language": "TypeScript",
+      "stars": 3116,
+      "createdAt": "2026-10-26",
+      "isNew": true,
+      "gain": 104
+    }
+  ],
+  "launches": [
+    {
+      "name": "Kippy AI",
+      "tagline": "Learn languages while having fun!",
+      "url": "https://www.producthunt.com/products/kippy-ai",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "name": "ScroogeFrog AI",
+      "tagline": "AI ad fraud detection that protects your marketing budget",
+      "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "name": "Scribe v3 by ElevenLabs",
+      "tagline": "Speech to text with 27% fewer errors in 90+ languages",
+      "url": "https://www.producthunt.com/products/elevenlabs",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Nod by n8n",
+      "tagline": "Open source personal agent with its own computer",
+      "url": "https://www.producthunt.com/products/n8n-io",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Mister Blocks",
+      "tagline": "Take a picture of your LEGO and AI will make a build",
+      "url": "https://www.producthunt.com/products/mister-blocks",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Relay",
+      "tagline": "DocSend for AI agents: send and receive docs with context",
+      "url": "https://www.producthunt.com/products/relaytoai",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "name": "nizima ACTION!!",
+      "tagline": "Powerful editing, expressive characters, zero installs.",
+      "url": "https://www.producthunt.com/products/nizima-action-by-live2d",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "StableBar",
+      "tagline": "A native, open-source menu bar for macOS",
+      "url": "https://www.producthunt.com/products/stablebar",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Xolace",
+      "tagline": "For the bad days you wouldn’t call a mental health problem",
+      "url": "https://www.producthunt.com/products/xolace",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "CALL-E",
+      "tagline": "The phone line for AI agents",
+      "url": "https://www.producthunt.com/products/call-e",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "name": "Stiro",
+      "tagline": "AI onboarding and customer success agent for SaaS",
+      "url": "https://www.producthunt.com/products/stiro",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "name": "Muse Ember by Meta",
+      "tagline": "Meta's low-cost AI model for high-volume agent tasks",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Valin",
+      "tagline": "Your private memory for everything you save.",
+      "url": "https://www.producthunt.com/products/valin",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Skillbox",
+      "tagline": "One library for your AI skills, synced to every agent",
+      "url": "https://www.producthunt.com/products/skillbox-5",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "name": "bonds chat",
+      "tagline": "Multiplayer AI that dies if you and your friends flake",
+      "url": "https://www.producthunt.com/products/bonds-2",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "MiniMax H3-Image",
+      "tagline": "Bringing 4K image generation into the 10-second era",
+      "url": "https://www.producthunt.com/products/minimax",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Mitra MCP",
+      "tagline": "Give your AI agents access to your personal phone line",
+      "url": "https://www.producthunt.com/products/mitra-5",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Earlybird",
+      "tagline": "29M-param speech-to-text that outputs words before they end",
+      "url": "https://www.producthunt.com/products/earlybird-5",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Reddit Reviews",
+      "tagline": "Product pages that collect subreddit sentiment",
+      "url": "https://www.producthunt.com/products/reddit",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Shot.video",
+      "tagline": "Multi-camera videos with the phones you already own",
+      "url": "https://www.producthunt.com/products/shot-video",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Subscriptrack",
+      "tagline": "Connect your email, see every subscription you pay for",
+      "url": "https://www.producthunt.com/products/subscriptrack",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Seedream 5.5 by ByteDance",
+      "tagline": "ByteDance's AI image model built for 100-round editing",
+      "url": "https://www.producthunt.com/products/seedream-4-0",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "RigSpark",
+      "tagline": "Know which AI to run on your own computer",
+      "url": "https://www.producthunt.com/products/rigspark",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Padrail",
+      "tagline": "Turn your MacBook trackpad edges into controls",
+      "url": "https://www.producthunt.com/products/padrail",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Binqo",
+      "tagline": "A tiny friend in your Mac's notch",
+      "url": "https://www.producthunt.com/products/binqo",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Skipbox",
+      "tagline": "Cheap, fast GitHub Actions runners with unlimited minutes",
+      "url": "https://www.producthunt.com/products/skipbox",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Kumiko",
+      "tagline": "AI window manager for ultrawide and big-screen Macs",
+      "url": "https://www.producthunt.com/products/kumiko-2",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "CollaboTokyo",
+      "tagline": "Explore a virtual Tokyo to network, market, and collaborate",
+      "url": "https://www.producthunt.com/products/collabotokyo",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "name": "Inspo by Context.dev",
+      "tagline": "Real website inspiration for your coding agent",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "MuJoCo 4",
+      "tagline": "A physics engine for robots with its own studio",
+      "url": "https://www.producthunt.com/products/google",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Daytwo",
+      "tagline": "Let your team change your custom site without touching code",
+      "url": "https://www.producthunt.com/products/daytwo-2",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Opal Reader",
+      "tagline": "Read PDFs and EPUBs on iPhone Duo",
+      "url": "https://www.producthunt.com/products/opal-reader",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "name": "Quillo",
+      "tagline": "Listen to any PDF in a natural voice, then ask Quillo Ai",
+      "url": "https://www.producthunt.com/products/quillo-2",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "name": "LotusQ",
+      "tagline": "Talk instead of type, in any app",
+      "url": "https://www.producthunt.com/products/lotusq",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "FigSchema",
+      "tagline": "Design database schemas right in FigJam",
+      "url": "https://www.producthunt.com/products/figschema",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "name": "QuotedPart",
+      "tagline": "AI quoting for CNC and sheet metal job shops",
+      "url": "https://www.producthunt.com/products/quotedpart",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "name": "ForAgent",
+      "tagline": "Private phone numbers so AI agents can call each other",
+      "url": "https://www.producthunt.com/products/foragent",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "name": "Levo",
+      "tagline": "Your AI agent finds what's safe to delete on your Mac",
+      "url": "https://www.producthunt.com/products/levo-3",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "name": "VeilCC",
+      "tagline": "Ship code AI can't reverse engineer",
+      "url": "https://www.producthunt.com/products/veilcc",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "name": "SideKick By Open",
+      "tagline": "“Claude, but for your product” is here.",
+      "url": "https://www.producthunt.com/products/open-for-sales",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Dover Startup Jobs",
+      "tagline": "Where great startups meet great candidates",
+      "url": "https://www.producthunt.com/products/dover",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Nadhif",
+      "tagline": "Check Mac, server and website security",
+      "url": "https://www.producthunt.com/products/nadhif",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "name": "Wipecraft",
+      "tagline": "Mac System Data cleaner with on-device AI mode",
+      "url": "https://www.producthunt.com/products/wipecraft",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "name": "Gesso",
+      "tagline": "Ask ChatGPT or Claude to design, then edit every layer",
+      "url": "https://www.producthunt.com/products/gesso-2",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "name": "Kata Send",
+      "tagline": "Cold email infrastructure for AI agents",
+      "url": "https://www.producthunt.com/products/kata-send",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "name": "TOWeb 15",
+      "tagline": "Rewritten as a native Mac & Windows app, with AI and MCP",
+      "url": "https://www.producthunt.com/products/toweb",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "name": "RunThru",
+      "tagline": "Video proof that your agent's pull request works",
+      "url": "https://www.producthunt.com/products/runthru",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "name": "Operum",
+      "tagline": "Your AI product team, with expert workflows built in",
+      "url": "https://www.producthunt.com/products/operum",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "name": "Ownkube",
+      "tagline": "Deploy apps from your coding agent with one prompt",
+      "url": "https://www.producthunt.com/products/ownkube",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "name": "Latch.ai",
+      "tagline": "Automate complex accounting work without a single prompt",
+      "url": "https://www.producthunt.com/products/latch-ai-2",
+      "publishedAt": "2026-10-28"
+    }
+  ]
+}
