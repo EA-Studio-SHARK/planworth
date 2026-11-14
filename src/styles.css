@@ -154,6 +154,13 @@ html[data-theme="dark"] .glass-tab.is-on { color: var(--nav-on); }
   color: var(--nav-on);
   font-weight: 600;
 }
+/* The shop is a paid placement, so keep the tab red even when it is the current page */
+.glass-tab.is-promo,
+.glass-tab.is-promo.is-on,
+html[data-theme="dark"] .glass-tab.is-promo,
+html[data-theme="dark"] .glass-tab.is-promo.is-on {
+  color: var(--promo);
+}
 .glass-tab-face {
   display: inline-flex;
   align-items: center;

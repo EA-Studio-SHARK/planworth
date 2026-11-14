@@ -18,7 +18,7 @@ export function Shell() {
     { to: "/claude", also: "/articles", label: t.navClaude, icon: <ShieldCheck size={18} weight="regular" /> },
     { to: "/fingerprint", label: t.navFp, icon: <Fingerprint size={18} weight="regular" /> },
     { to: "/checkcc", label: t.navEnv, icon: <GlobeSimple size={18} weight="regular" /> },
-    { to: "/shop", label: t.navShop, icon: <Storefront size={18} weight="regular" /> },
+    { to: "/shop", label: t.navShop, icon: <Storefront size={18} weight="regular" />, promo: true },
     { to: "/partners", label: t.navPartners, icon: <Handshake size={18} weight="regular" /> },
   ];
 
