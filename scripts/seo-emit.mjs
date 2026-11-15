@@ -18,6 +18,73 @@ function field(block, name) {
   return m ? unquote(m[1]) : "";
 }
 
+function parseTs(src, i) {
+  while (i < src.length && /[\s,]/.test(src[i])) i++;
+  const ch = src[i];
+  if (ch === `"`) {
+    let j = i + 1;
+    let out = "";
+    while (j < src.length) {
+      const c = src[j];
+      if (c === `\\`) {
+        out += src.slice(j, j + 2);
+        j += 2;
+        continue;
+      }
+      if (c === `"`) return [unquote(out), j + 1];
+      out += c;
+      j++;
+    }
+    throw new Error("unterminated string");
+  }
+  if (ch === "[") {
+    const arr = [];
+    i++;
+    while (i < src.length) {
+      while (i < src.length && /[\s,]/.test(src[i])) i++;
+      if (src[i] === "]") return [arr, i + 1];
+      const [val, next] = parseTs(src, i);
+      arr.push(val);
+      i = next;
+    }
+    throw new Error("unterminated array");
+  }
+  if (ch === "{") {
+    const obj = {};
+    i++;
+    while (i < src.length) {
+      while (i < src.length && /[\s,]/.test(src[i])) i++;
+      if (src[i] === "}") return [obj, i + 1];
+      const keyMatch = src.slice(i).match(/^([A-Za-z_][\w]*)\s*:/);
+      if (!keyMatch) throw new Error(`expected key at ${i}`);
+      i += keyMatch[0].length;
+      const [val, next] = parseTs(src, i);
+      obj[keyMatch[1]] = val;
+      i = next;
+    }
+    throw new Error("unterminated object");
+  }
+  const lit = src.slice(i).match(/^(true|false|null|-?\d+(?:\.\d+)?)/);
+  if (lit) {
+    const raw = lit[1];
+    const val = raw === "true" ? true : raw === "false" ? false : raw === "null" ? null : Number(raw);
+    return [val, i + raw.length];
+  }
+  throw new Error(`cannot parse at ${i}: ${src.slice(i, i + 40)}`);
+}
+
+function parseBody(block) {
+  const idx = block.indexOf("body: [");
+  if (idx < 0) return [];
+  try {
+    const [val] = parseTs(block, idx + "body: ".length);
+    return Array.isArray(val) ? val : [];
+  } catch (error) {
+    console.warn(`seo-emit: body parse failed (${error.message})`);
+    return [];
+  }
+}
+
 function parseArticles(src) {
   const start = src.indexOf("export const ARTICLES_ZH");
   const end = src.indexOf("export const ARTICLE_FAQ_ZH");
@@ -35,6 +102,7 @@ function parseArticles(src) {
         date: field(block, "date"),
         summary: field(block, "summary"),
         keyPoints,
+        body: parseBody(block),
       };
     })
     .filter((row) => row.id && row.title);
@@ -75,14 +143,50 @@ function today() {
   return new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Shanghai" });
 }
 
+function blockHtml(block) {
+  if (!block || typeof block !== "object") return "";
+  switch (block.type) {
+    case "p":
+      return `<p>${esc(block.text)}</p>`;
+    case "h2":
+      return `<h2>${esc(block.text)}</h2>`;
+    case "ul":
+    case "check":
+      return `<ul>${(block.items ?? []).map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`;
+    case "steps":
+      return `<ol>${(block.items ?? [])
+        .map((item) => `<li><b>${esc(item.title)}</b> ${esc(item.text)}</li>`)
+        .join("")}</ol>`;
+    case "callout":
+      return `<aside><b>${esc(block.title)}</b><p>${esc(block.text)}</p></aside>`;
+    case "code":
+      return `<pre><code>${esc(block.text)}</code></pre>`;
+    case "tool":
+      return `<p><a href="${esc(block.to)}">${esc(block.title)}</a> ${esc(block.text)}</p>`;
+    case "quote":
+      return `<blockquote>${esc(block.text)}${block.cite ? `<cite>${esc(block.cite)}</cite>` : ""}</blockquote>`;
+    case "table": {
+      const head = (block.headers ?? []).map((cell) => `<th>${esc(cell)}</th>`).join("");
+      const rows = (block.rows ?? [])
+        .map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join("")}</tr>`)
+        .join("");
+      return `<table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table>`;
+    }
+    default:
+      return "";
+  }
+}
+
 function snapshot(page) {
   const points = (page.points ?? []).map((item) => `<li>${esc(item)}</li>`).join("");
+  const body = (page.blocks ?? []).map(blockHtml).join("");
+  const extra = page.extraHtml ?? "";
   const links = (page.links ?? [])
     .map((item) => `<a href="${esc(item.href)}">${esc(item.label)}</a>`)
     .join("");
   return `<article class="seo-snapshot"><p>ExploreAI</p><h1>${esc(page.h1)}</h1><p>${esc(page.description)}</p>${
     points ? `<ul>${points}</ul>` : ""
-  }${links ? `<nav>${links}</nav>` : ""}</article>`;
+  }${body}${extra}${links ? `<nav>${links}</nav>` : ""}</article>`;
 }
 
 function stripShared(html) {
@@ -226,6 +330,7 @@ for (const article of articles) {
     type: "article",
     lastmod: article.date || built,
     points: article.keyPoints,
+    blocks: article.body,
     links: [
       { href: "/claude", label: "专栏" },
       { href: "/", label: "首页" },
@@ -255,6 +360,12 @@ for (const issue of issues) {
     h1: `${issue.date} 早报`,
     type: "article",
     lastmod: issue.date,
+    extraHtml: `<p>${esc(issue.lead?.zh ?? "")}</p><p>${esc(issue.lead?.why ?? "")}</p>${(issue.sections ?? [])
+      .map(
+        (section) =>
+          `<h2>${esc(section.title)}</h2>${(section.items ?? []).map((item) => `<p>${esc(item.zh)}</p>`).join("")}`,
+      )
+      .join("")}`,
     links: [{ href: "/claude/brief", label: "全部早报" }],
     jsonLd: [
       {
@@ -292,7 +403,19 @@ ${urls}
 );
 fs.writeFileSync(
   path.join(dist, "robots.txt"),
-  `User-agent: *
+  `User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: *
 Allow: /
 
 Sitemap: ${ORIGIN}/sitemap.xml

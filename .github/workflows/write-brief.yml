@@ -1,0 +1,76 @@
+# 07:40 Beijing: write today's brief from material already on main, then publish it.
+# GITHUB_TOKEN pushes do not trigger other workflows, so this job deploys itself.
+# A person or Manus can still push claude/brief-* and use publish-brief.yml.
+name: Write brief
+
+on:
+  schedule:
+    - cron: "40 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: write-brief
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+      BRIEF_API_KEY: ${{ secrets.BRIEF_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Pick the date
+        run: |
+          date_cn=$(TZ=Asia/Shanghai date +%F)
+          echo "BRIEF_DATE=$date_cn" >> "$GITHUB_ENV"
+      - name: Write
+        run: |
+          set +e
+          node scripts/write-brief.mjs "$BRIEF_DATE"
+          rc=$?
+          if [ "$rc" = "2" ]; then
+            echo "Planned skip."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          exit "$rc"
+      - name: Check and build
+        if: env.SKIP != '1'
+        run: |
+          node scripts/check-brief.mjs "$BRIEF_DATE"
+          npm run build
+      - name: Merge to main and deploy
+        if: env.SKIP != '1'
+        run: |
+          cp "src/data/briefs/$BRIEF_DATE.json" "/tmp/brief-$BRIEF_DATE.json"
+          git fetch origin main
+          git checkout -B publish origin/main
+          mkdir -p src/data/briefs
+          cp "/tmp/brief-$BRIEF_DATE.json" "src/data/briefs/$BRIEF_DATE.json"
+          git config user.name "exploreai-bot"
+          git config user.email "exploreai-bot@users.noreply.github.com"
+          git add "src/data/briefs/$BRIEF_DATE.json"
+          git diff --cached --quiet && { echo "Nothing to commit."; exit 0; }
+          git commit -m "brief: $BRIEF_DATE"
+          git push origin publish:main
+          npm run build
+          npx --yes wrangler@4.152.0 deploy
+          node scripts/ping-indexnow.mjs "$BRIEF_DATE"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

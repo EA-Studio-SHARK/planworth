@@ -60,3 +60,39 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "chore: daily material $BRIEF_DATE"
           git push origin HEAD:main
+      - name: Write today's brief
+        if: ${{ inputs.dry_run != true }}
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          BRIEF_API_KEY: ${{ secrets.BRIEF_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set +e
+          node scripts/write-brief.mjs "$BRIEF_DATE"
+          rc=$?
+          if [ "$rc" = "2" ]; then
+            echo "Write skipped (already published, or not enough items)."
+            echo "WROTE=0" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          if [ "$rc" != "0" ]; then
+            echo "::warning::Write brief failed here; the 07:40 job can retry."
+            echo "WROTE=0" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          echo "WROTE=1" >> "$GITHUB_ENV"
+      - name: Publish brief
+        if: ${{ inputs.dry_run != true && env.WROTE == '1' }}
+        run: |
+          node scripts/check-brief.mjs "$BRIEF_DATE"
+          git config user.name "exploreai-bot"
+          git config user.email "exploreai-bot@users.noreply.github.com"
+          git add "src/data/briefs/$BRIEF_DATE.json"
+          git commit -m "brief: $BRIEF_DATE"
+          git push origin HEAD:main
+          npm run build
+          npx --yes wrangler@4.152.0 deploy
+          node scripts/ping-indexnow.mjs "$BRIEF_DATE"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

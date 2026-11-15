@@ -8,6 +8,7 @@
     "build": "tsc -b && node scripts/check-i18n.mjs && vite build && node scripts/seo-emit.mjs",
     "lint": "eslint .",
     "brief:fetch": "node scripts/fetch-brief.mjs",
+    "brief:write": "node scripts/write-brief.mjs",
     "brief:check": "node scripts/check-brief.mjs",
     "i18n:check": "node scripts/check-i18n.mjs",
     "preview": "vite preview"
