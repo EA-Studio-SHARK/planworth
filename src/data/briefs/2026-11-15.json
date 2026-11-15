@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-15",
+  "days": 1,
+  "headline": "Vercel 实验室放出给智能体用的界面 SDK，交互行为可接到主流前端框架；同期编程代理的技能包与桌面管理器也在涨星。",
+  "headlineEn": "Vercel Labs released a UI SDK for agents, with interaction behaviors that plug into major frontend stacks, while coding-agent skills and desktop managers also rose.",
+  "lead": {
+    "source": "github",
+    "name": "vercel-labs/ui",
+    "url": "https://github.com/vercel-labs/ui",
+    "zh": "给智能体用的界面行为库，核心覆盖键盘、焦点、选择与拖放，并提供多框架适配。",
+    "en": "A behavior library so agents can assemble interfaces, with core primitives and adapters for several UI frameworks.",
+    "stars": 4577,
+    "gain": 683,
+    "why": "读者里很多人每天都在让编程代理改界面。这个库把导航、焦点和弹出层等行为收进 SDK，也可作为技能交给代理去用。",
+    "whyEn": "Many of you already let coding agents touch the UI. This SDK packages navigation, focus, and overlay behaviors, and can be handed to an agent as a skill."
+  },
+  "sections": [
+    {
+      "title": "编程代理的技能、口令与方法",
+      "titleEn": "Skills, design cues, and methods for coding agents",
+      "items": [
+        {
+          "source": "github",
+          "name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "zh": "面向 Claude Code、Codex 与 Cursor 的代理运行时，覆盖技能、记忆、安全，并警告只从官方渠道安装。",
+          "en": "A harness for several coding agents that bundles skills, memory, and security, with a hard warning to install only from official channels.",
+          "stars": 303120,
+          "gain": 623
+        },
+        {
+          "source": "github",
+          "name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "zh": "给编程代理一套设计用语，用 polish、critique 等指令约束界面品味，并在发版前检查敷衍输出。",
+          "en": "A shared design vocabulary so coding agents can be steered, reviewed, and checked for sloppy UI before you ship.",
+          "stars": 110245,
+          "gain": 587
+        },
+        {
+          "source": "github",
+          "name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "zh": "作者称在 Claude Code 对照实验中代码约少百分之五十三，风险逻辑带测试的比例更高。",
+          "en": "The author reports that the same agent wrote far less code in a Claude Code benchmark, while more of the risky logic shipped with tests.",
+          "stars": 190957,
+          "gain": 552
+        },
+        {
+          "source": "github",
+          "name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "zh": "一套可组合的技能，加上要求代理真正去用它们的初始指令，形成完整开发方法。",
+          "en": "A methodology made of composable skills plus bootstrap instructions that push the agent to actually use them.",
+          "stars": 317667,
+          "gain": 407
+        }
+      ]
+    },
+    {
+      "title": "配置切换、代码地图与代理护栏",
+      "titleEn": "Provider switching, codebase maps, and agent guardrails",
+      "items": [
+        {
+          "source": "github",
+          "name": "farion1231/cc-switch",
+          "url": "https://github.com/farion1231/cc-switch",
+          "zh": "桌面里切换 Claude Code、Codex、OpenCode 等的接口供应商，并集中改 MCP、技能和提示。",
+          "en": "A desktop app to switch API providers for several coding CLIs and to edit MCP, skills, and prompts without hand-editing config files.",
+          "stars": 154443,
+          "gain": 197
+        },
+        {
+          "source": "producthunt",
+          "name": "FreeFlow Dictation",
+          "url": "https://www.producthunt.com/products/freeflow-dictation",
+          "zh": "苹果电脑上的设备端听写，并带有接到 Claude Code 的语音挂钩。",
+          "en": "Dictation that runs on a Mac, plus a voice hook aimed at Claude Code."
+        },
+        {
+          "source": "github",
+          "name": "haydenschmitty/floorplan",
+          "url": "https://github.com/haydenschmitty/floorplan",
+          "zh": "由 Claude 或 Codex 阅读仓库，生成带白话名称和连线的交互式代码结构图。",
+          "en": "Claude or Codex reads your repo and draws an interactive map of parts, files, and requests in plain language.",
+          "stars": 4350,
+          "gain": 208
+        },
+        {
+          "source": "producthunt",
+          "name": "Antelog",
+          "url": "https://www.producthunt.com/products/antelog",
+          "zh": "用来拦住编程代理把数据外泄或毁掉。",
+          "en": "A guard that keeps coding agents from leaking or wiping your data."
+        }
+      ]
+    },
+    {
+      "title": "会议纪要留在本机",
+      "titleEn": "Meeting notes that stay on the machine",
+      "items": [
+        {
+          "source": "github",
+          "name": "FrigadeHQ/yogurt",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "zh": "会议录音与摘要留在本机处理，开源替代方案，且不往会议里加机器人。",
+          "en": "Call notes transcribed and summarized on your own machine, without dropping a bot into the meeting.",
+          "stars": 1498,
+          "gain": 205
+        },
+        {
+          "source": "producthunt",
+          "name": "Tacie",
+          "url": "https://www.producthunt.com/products/tacie",
+          "zh": "通话里不出现机器人，只在 Mac 上留下会议笔记。",
+          "en": "Mac meeting notes that never put a bot in the room."
+        }
+      ]
+    }
+  ]
+}
