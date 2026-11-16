@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-16",
+  "days": 1,
+  "headline": "Anthropic 公开 Agent Skills 仓库，Claude 可按任务动态加载指令与脚本；同期多款编排工具把 Claude Code 和 Codex 拉进同一工作流。",
+  "headlineEn": "Anthropic published its Agent Skills repo so Claude can load task-specific folders on demand, while several orchestrators now run Claude Code and Codex side by side.",
+  "lead": {
+    "source": "github",
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "zh": "仓库展示 Anthropic 的技能实现：把可重复执行的专项任务写成文件夹，供 Claude 按需载入。",
+    "en": "Anthropic’s public implementation of task packs that Claude can load on demand for repeatable specialized work.",
+    "stars": 195405,
+    "gain": 758,
+    "why": "每天用 Claude 写代码的人，终于有一份可对照的官方技能格式：把品牌规范、内部流程或个人自动化写成可复用文件夹，而不是每次重写提示词。",
+    "whyEn": "Daily Claude users get a canonical layout for packaging brand rules, internal workflows, or personal automations, instead of pasting the same prompt again."
+  },
+  "sections": [
+    {
+      "title": "把工程习惯写成可插拔技能",
+      "titleEn": "Engineering habits packaged as skills",
+      "items": [
+        {
+          "source": "github",
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "zh": "作者从自己的 .agents 目录抽出一批小而可组合的技能，强调可控而不是把流程交给框架。",
+          "en": "A set of small, swappable skills taken from a working .agents folder, written to keep the process in your hands.",
+          "stars": 325228,
+          "gain": 709
+        },
+        {
+          "source": "github",
+          "name": "heydamir/unslop",
+          "url": "https://github.com/heydamir/unslop",
+          "zh": "面向 Claude Code 的界面返工技能，先标出紫渐变、发光和口号文案，再按产品调性改一版。",
+          "en": "A Claude Code skill that flags purple gradients, glow, and slogan-like copy, then restyles the screen to fit the product.",
+          "stars": 16788,
+          "gain": 746
+        },
+        {
+          "source": "github",
+          "name": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "zh": "将日常在用的 Claude Code 配成虚拟工程团队，用斜杠命令覆盖产品、架构、设计审查、QA 与发布。",
+          "en": "A Claude Code setup of slash commands that play product, architecture, design review, QA, and release.",
+          "stars": 141709,
+          "gain": 127
+        }
+      ]
+    },
+    {
+      "title": "同一任务里并行拉起多个编程代理",
+      "titleEn": "Several coding agents on one job",
+      "items": [
+        {
+          "source": "github",
+          "name": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
+          "zh": "用自己的订阅同时跑 Claude Code、Codex 等代理，各占独立 worktree，桌面、手机和远程都能进。",
+          "en": "Run Claude Code, Codex, and other coding agents in parallel worktrees from desktop, phone, or a remote runtime, billed on your own plan.",
+          "stars": 125850,
+          "gain": 748
+        },
+        {
+          "source": "producthunt",
+          "name": "Talyn",
+          "url": "https://www.producthunt.com/products/talyn",
+          "zh": "在云端沙箱里并行运行 Claude Code 和 Codex。",
+          "en": "Side-by-side Claude Code and Codex sessions, each in its own cloud sandbox."
+        },
+        {
+          "source": "producthunt",
+          "name": "ByteAsk Cloud Agents",
+          "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+          "zh": "在大型代码库里定位修复，并从 Slack 提交改动。",
+          "en": "Search a large repo for the change you need, then land it via Slack."
+        }
+      ]
+    },
+    {
+      "title": "代理忘了上下文时怎么续上",
+      "titleEn": "Context that survives the next session",
+      "items": [
+        {
+          "source": "github",
+          "name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "zh": "记录代理在会话中的操作，压缩后在下次会话注入相关上下文，兼容 Claude Code、Codex 等。",
+          "en": "Stores what an agent did, compresses it, and injects the useful bits into later sessions for Claude Code, Codex, and more.",
+          "stars": 117395,
+          "gain": 258
+        },
+        {
+          "source": "github",
+          "name": "KKKKhazix/agent-autoloop",
+          "url": "https://github.com/KKKKhazix/agent-autoloop",
+          "zh": "让命令行代理在后台自己接任务并跟进，拿不准时才发卡片请你拍板。",
+          "en": "A CLI agent keeps working after you step away and only sends a card when it needs a decision.",
+          "stars": 5521,
+          "gain": 175
+        },
+        {
+          "source": "github",
+          "name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "zh": "从经验里沉淀技能并检索过往对话，模型可换，会话不绑在本机。",
+          "en": "Builds skills from its own experience, can search prior chats, and is not locked to one model or one laptop.",
+          "stars": 263655,
+          "gain": 233
+        }
+      ]
+    },
+    {
+      "title": "把一群代理当成公司来管",
+      "titleEn": "Treating a fleet of agents like a company",
+      "items": [
+        {
+          "source": "github",
+          "name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "zh": "开源的工作台，用来给一批 AI 代理分目标、看任务和成本，并按代理选择模型和工具链。",
+          "en": "An open-source console for assigning goals to a team of agents and tracking work and cost in one place.",
+          "stars": 114157,
+          "gain": 210
+        },
+        {
+          "source": "producthunt",
+          "name": "Pixel Office",
+          "url": "https://www.producthunt.com/products/pixel-office-3",
+          "zh": "在像素风办公室里调度一组 AI 代理。",
+          "en": "Manage a crew of AI agents from inside a pixel-art workplace."
+        },
+        {
+          "source": "producthunt",
+          "name": "Canvas by AgentGrid.io",
+          "url": "https://www.producthunt.com/products/agentgrid-io",
+          "zh": "用可视化画布与 AI 协作做设计。",
+          "en": "Lay out design work with AI on a shared canvas."
+        }
+      ]
+    }
+  ]
+}
