@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-23",
+  "days": 1,
+  "headline": "给智能体补网页与数据源的 Firecrawl 日增八百五十星，办公套件、代码图谱和压缩输出的技能一并涌入代理工作流。",
+  "headlineEn": "Firecrawl added 850 stars as scrape-and-search infra for agents, while office editors, code graphs and shorter-output skills entered coding-agent workflows.",
+  "lead": {
+    "source": "github",
+    "name": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "zh": "把网站收成干净 Markdown，并经同一 API 接搜索与五百五十多家数据源，可作本地 MCP 或自托管。",
+    "en": "Turns pages into clean markdown and exposes search plus 550-plus providers on one API, as a local MCP binary or a self-hosted server.",
+    "stars": 207114,
+    "gain": 850,
+    "why": "日常跑 Claude 与编程代理时，缺的往往不是模型，而是干净、可引用的网页与外部数据。Firecrawl 把抓取、搜索和数据源收成同一套接口。",
+    "whyEn": "Agents stall on messy pages more than on model quality. Firecrawl folds scrape, search and outside providers into one interface they can call."
+  },
+  "sections": [
+    {
+      "title": "办公文件与代码图谱进代理",
+      "titleEn": "Office files and code graphs inside agents",
+      "items": [
+        {
+          "source": "github",
+          "name": "XinaTian/MROffice",
+          "url": "https://github.com/XinaTian/MROffice",
+          "zh": "浏览器里的开源办公编辑器，可改真实 Word、Excel 与 PPT，并提供 MCP 给 Claude 与 ChatGPT。",
+          "en": "Open-source browser editors that operate on real Word, Excel and PowerPoint files, with MCP so Claude and ChatGPT can edit them.",
+          "stars": 2236,
+          "gain": 660
+        },
+        {
+          "source": "github",
+          "name": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "zh": "代码库连同文档、SQL 与 PDF 变成可查询图谱，本地做 AST 解析且每条边可解释，不靠向量库。",
+          "en": "Parses a repository, its docs and schemas into a local knowledge graph agents can query, with deterministic ASTs instead of embeddings.",
+          "stars": 152099,
+          "gain": 454
+        },
+        {
+          "source": "producthunt",
+          "name": "Ulika",
+          "url": "https://www.producthunt.com/products/ulika",
+          "zh": "面向用 Claude、Cursor 或 Codex 搭出来的网站，提供可视化编辑。",
+          "en": "A visual editor for websites assembled with Claude, Cursor or Codex."
+        }
+      ]
+    },
+    {
+      "title": "本机个人代理、Rust 改写与离席编程",
+      "titleEn": "On-device agents, Rust rewrites and work that continues",
+      "items": [
+        {
+          "source": "github",
+          "name": "simplexai-labs/linger",
+          "url": "https://github.com/simplexai-labs/linger",
+          "zh": "个人代理完全跑在本机。作者称靠模型与运行时共设计，把能力放到消费级电脑。",
+          "en": "A personal agent that stays on your PC, via model and harness co-design aimed at consumer machines.",
+          "stars": 3901,
+          "gain": 466
+        },
+        {
+          "source": "github",
+          "name": "erkamyaman/rust-anything",
+          "url": "https://github.com/erkamyaman/rust-anything",
+          "zh": "按原程序录下的行为逐块改写成 Rust，每一步对照录音校验，覆盖 TypeScript、Python 与 Go 等。",
+          "en": "Records what an existing app does, then rewrites it in Rust one slice at a time against that recording.",
+          "stars": 8059,
+          "gain": 593
+        },
+        {
+          "source": "github",
+          "name": "sybil-solutions/inference-optimisation-skill",
+          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "zh": "代理技能，针对本地 LLM 服务做爬山式加速，覆盖 decode、推测解码、prefill 与 KV。",
+          "en": "A skill that hill-climbs local LLM serving speed across decode, speculative decoding, prefill and KV, for any hardware and quantization.",
+          "stars": 1968,
+          "gain": 274
+        },
+        {
+          "source": "producthunt",
+          "name": "Omi CLI",
+          "url": "https://www.producthunt.com/products/omi-cli",
+          "zh": "在你离开之后仍继续工作的 AI 编程代理。",
+          "en": "Coding agents meant to keep going after you step away."
+        }
+      ]
+    },
+    {
+      "title": "工程门禁、品味、压缩输出与发布片",
+      "titleEn": "Engineering gates, taste, shorter output and launch films",
+      "items": [
+        {
+          "source": "github",
+          "name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "zh": "把资深工程里的流程、质量门与实践打成技能包，让编程代理按阶段执行。",
+          "en": "Encodes senior engineering workflows and quality gates so agents follow them from plan through review.",
+          "stars": 119798,
+          "gain": 200
+        },
+        {
+          "source": "github",
+          "name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "zh": "编程代理可拿到艺术指导、参考图和浏览器验收，少做模板感落地页。",
+          "en": "Steers coding agents with art direction, reference shots and a live browser pass, away from stock landing pages.",
+          "stars": 120182,
+          "gain": 415
+        },
+        {
+          "source": "github",
+          "name": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "zh": "用更短回答与工具输出省 token，原文可还原。作者称每题花费比 Codex 低百分之二十一。",
+          "en": "Shortens agent answers and tool output with originals still recoverable. The authors say cost per solved task is 21 percent below Codex.",
+          "stars": 122196,
+          "gain": 208
+        },
+        {
+          "source": "producthunt",
+          "name": "TeaserKit",
+          "url": "https://www.producthunt.com/products/teaserkit",
+          "zh": "由你的编程代理来执导产品发布视频。",
+          "en": "Puts your coding agent in the director seat for the launch video."
+        }
+      ]
+    }
+  ]
+}
