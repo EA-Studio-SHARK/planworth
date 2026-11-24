@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-24",
+  "days": 1,
+  "headline": "热点函数才值得改写成 Rust，fast-anything 让编程代理只动 README 所称最慢的那 5%，再对照录得的真实调用做验收。",
+  "headlineEn": "Skip a full Rust rewrite: fast-anything profiles Python, Node, or Ruby, has a coding agent port only the hot path, and checks it against recorded calls.",
+  "lead": {
+    "source": "github",
+    "name": "EL4CTEO/fast-anything",
+    "url": "https://github.com/EL4CTEO/fast-anything",
+    "zh": "剖析 Python、Node 或 Ruby 应用，让编程代理只把热点函数改写成 Rust，并对照录得的真实调用核对结果。",
+    "en": "Profile a Python, Node, or Ruby app, have a coding agent port only the hot functions to Rust, then check results against recorded real calls.",
+    "stars": 3276,
+    "gain": 1252,
+    "why": "读者已在用编程代理改仓库。README 称多数耗时集中在少数函数，整仓重写代价高；它把代理用在可逆的局部移植和对照验收上。",
+    "whyEn": "Readers already point coding agents at repos. The README says most time sits in a few functions, so a full rewrite is costly; this keeps the agent on a reversible, checked local port."
+  },
+  "sections": [
+    {
+      "title": "免费 runner 上的真机代理测试，以及通宵任务",
+      "titleEn": "Device-farm agents on free runners, and overnight jobs",
+      "items": [
+        {
+          "source": "github",
+          "name": "pierridotite/mobile-agent-testers",
+          "url": "https://github.com/pierridotite/mobile-agent-testers",
+          "zh": "二十个 Claude Code 代理在 GitHub 免费 runner 上并行进不同模拟器，查找流程、翻译和布局问题。",
+          "en": "Twenty Claude Code testers run at once on free GitHub runners, each driving a different phone image to catch broken flows, copy, and layout.",
+          "stars": 1553,
+          "gain": 918
+        },
+        {
+          "source": "producthunt",
+          "name": "Plango",
+          "url": "https://www.producthunt.com/products/plango",
+          "zh": "官方称可让 AI 代理通宵干活，并强调这样做是安全的。",
+          "en": "The listing says your AI agents can keep going overnight, with safety as the stated constraint."
+        },
+        {
+          "source": "producthunt",
+          "name": "Replit Missions",
+          "url": "https://www.producthunt.com/products/replit",
+          "zh": "按介绍先设定预算，再协调多组 AI 代理一起工作。",
+          "en": "You set a spend cap first, then coordinate groups of AI agents from there."
+        }
+      ]
+    },
+    {
+      "title": "像素叠图、反平均创意，以及把好会话写成技能",
+      "titleEn": "Sprite stacks, less-average ideas, and skills distilled from sessions",
+      "items": [
+        {
+          "source": "github",
+          "name": "danielwh2/sprite-stacking",
+          "url": "https://github.com/danielwh2/sprite-stacking",
+          "zh": "把四视图像素画叠成可旋转的伪三维精灵，可装进多种编程代理。",
+          "en": "A skill that stacks four pixel-art views into a turntable sprite, for Claude Code, Codex, Cursor, and similar CLIs.",
+          "stars": 697,
+          "gain": 217
+        },
+        {
+          "source": "github",
+          "name": "mankidev/antialgorithm",
+          "url": "https://github.com/mankidev/antialgorithm",
+          "zh": "创意任务里先点出模型最常给的平均答案，再按项目理由推开它。",
+          "en": "For names, posters, and UI, it makes the model name its first generic pick, then leave it for a reason taken from the project.",
+          "stars": 786,
+          "gain": 72
+        },
+        {
+          "source": "github",
+          "name": "sybil-solutions/skill-distill",
+          "url": "https://github.com/sybil-solutions/skill-distill",
+          "zh": "会话结束后把好的 Claude Code 或 Codex 过程蒸馏成技能，交给开源权重模型复做。",
+          "en": "After Claude Code or Codex does a task well, turn that session into a skill a smaller open-weight model can follow.",
+          "stars": 531,
+          "gain": 71
+        },
+        {
+          "source": "github",
+          "name": "JimLiu/open-artifact",
+          "url": "https://github.com/JimLiu/open-artifact",
+          "zh": "本地保存普通文件形式的产物，幻灯片、界面和表格可编辑、批注和导出。",
+          "en": "Agent-agnostic artifacts stored as plain local files, so slides, UI, and sheets can be edited, commented on, and exported.",
+          "stars": 455,
+          "gain": 91
+        }
+      ]
+    },
+    {
+      "title": "旧安卓当控制台、Mac 上的 Git 客户端，以及手摆的家庭实验室图",
+      "titleEn": "A spare Android desk deck, a Mac Git client, and a hand-placed homelab map",
+      "items": [
+        {
+          "source": "github",
+          "name": "ersinkoc/phonebox",
+          "url": "https://github.com/ersinkoc/phonebox",
+          "zh": "闲置安卓机可当电脑桌面触控板，USB 或配对 Wi-Fi，README 称不经过云。",
+          "en": "Turn an old Android phone into a desk-side touch panel for Windows, Linux, or macOS over USB or paired Wi-Fi, with no cloud account.",
+          "stars": 5552,
+          "gain": 461
+        },
+        {
+          "source": "producthunt",
+          "name": "Branchery",
+          "url": "https://www.producthunt.com/products/branchery",
+          "zh": "面向 Mac 用户的 Git 客户端。",
+          "en": "A Git client for Mac, which is all the listing states."
+        },
+        {
+          "source": "github",
+          "name": "Goblinmine/homelab-diagram",
+          "url": "https://github.com/Goblinmine/homelab-diagram",
+          "zh": "作者称从 YAML 清单渲染 r/homelab 风格图，布局是手摆的，代码与 Claude 一起写。",
+          "en": "Renders an r/homelab-style map from a YAML inventory; the author says the layout is hand-placed and the code was written with Claude.",
+          "stars": 1777,
+          "gain": 154
+        }
+      ]
+    }
+  ]
+}
