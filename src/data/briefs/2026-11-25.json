@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-25",
+  "days": 1,
+  "headline": "给编程代理装技能包成了今天的主线，Superpowers 单日大涨，设计词表与少写代码的方法论一起涌进 Claude Code 和 Codex。",
+  "headlineEn": "Skill packs for coding agents led the day as Superpowers surged, while design vocabulary and write-less methods landed in Claude Code and Codex.",
+  "lead": {
+    "source": "github",
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "zh": "一套可组合技能加上强制使用它们的初始指令，把开发方法论接到各类编码代理上。",
+    "en": "Composable skills plus bootstrap instructions that make coding agents follow a full development methodology.",
+    "stars": 325951,
+    "gain": 1716,
+    "why": "今天涨星最多的不是新模型，而是把技能、工作流和初始指令绑在一起的代理方法论，覆盖 Claude Code、Cursor 与 Codex。",
+    "whyEn": "The day's largest star gain came from a methodology that binds skills, workflow, and bootstrap instructions across Claude Code, Cursor, and Codex."
+  },
+  "sections": [
+    {
+      "title": "给编码代理的技能、词表和少写规矩",
+      "titleEn": "Skills, design vocabulary, and write-less rules",
+      "items": [
+        {
+          "source": "github",
+          "name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "zh": "把界面品味写成代理能执行的指令，先打磨再评审，减少发版前的廉价生成痕迹。",
+          "en": "Turns visual taste into commands a coding agent can follow, then review the result before it ships.",
+          "stars": 116395,
+          "gain": 621
+        },
+        {
+          "source": "github",
+          "name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "zh": "面向 Claude Code 与 Codex 的运行时层，补技能、记忆、安全，并要求先调研再动手。",
+          "en": "A runtime layer for Claude Code, Codex, OpenCode and Cursor that adds skills, memory, security, and a research-first loop.",
+          "stars": 310283,
+          "gain": 579
+        },
+        {
+          "source": "github",
+          "name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "zh": "仓库 README 称同一代理在 Claude Code 基准上少写百分之五十三的代码、少花百分之四十一的时间。",
+          "en": "The README reports the same Claude Code agent producing less code and spending less time on a fixed task set.",
+          "stars": 198162,
+          "gain": 524
+        },
+        {
+          "source": "producthunt",
+          "name": "Granular.Build",
+          "url": "https://www.producthunt.com/products/granular-build",
+          "zh": "在可视化工作区里让 AI 代理开始干活。",
+          "en": "A visual workspace for putting AI agents on actual tasks."
+        }
+      ]
+    },
+    {
+      "title": "终端编码代理与供应商切换",
+      "titleEn": "Terminal coding agents and provider switching",
+      "items": [
+        {
+          "source": "github",
+          "name": "farion1231/cc-switch",
+          "url": "https://github.com/farion1231/cc-switch",
+          "zh": "桌面端集中切换 Claude Code、Codex 等的接口供应商，并管理 MCP、技能和提示词。",
+          "en": "A desktop manager to switch API providers and keep MCP, skills, and prompts in one place for Claude Code and Codex.",
+          "stars": 156956,
+          "gain": 215
+        },
+        {
+          "source": "github",
+          "name": "earendil-works/pi",
+          "url": "https://github.com/earendil-works/pi",
+          "zh": "精简可扩展的代理套件，含统一模型接口、循环、终端界面和编码 CLI。",
+          "en": "A small agent harness with a unified model API, loop, terminal UI, and coding CLI you can extend.",
+          "stars": 123745,
+          "gain": 172
+        },
+        {
+          "source": "github",
+          "name": "anomalyco/opencode",
+          "url": "https://github.com/anomalyco/opencode",
+          "zh": "开源的终端编码代理，可用安装脚本或包管理器落地。",
+          "en": "An open-source coding agent for the terminal, installable via script or package managers.",
+          "stars": 229009,
+          "gain": 157
+        },
+        {
+          "source": "producthunt",
+          "name": "Claude Ship",
+          "url": "https://www.producthunt.com/products/claude-code",
+          "zh": "官方标语是代码能写多快，就能交付多快。",
+          "en": "The listing frames delivery as matching the pace at which you write code."
+        },
+        {
+          "source": "producthunt",
+          "name": "Viktor Code",
+          "url": "https://www.producthunt.com/products/viktor",
+          "zh": "编码代理熟悉仓库，这款产品则声称熟悉你的公司。",
+          "en": "Aimed at the gap between repo-aware coding agents and company-level context."
+        }
+      ]
+    },
+    {
+      "title": "代理配置扫描与本地模型",
+      "titleEn": "Agent-setup scanning and local models",
+      "items": [
+        {
+          "source": "github",
+          "name": "erkamyaman/safe-anything",
+          "url": "https://github.com/erkamyaman/safe-anything",
+          "zh": "扫描代码中的注入、密钥泄露和依赖漏洞，也覆盖 AI 代理相关配置。",
+          "en": "A Rust scanner for injection flaws, leaked secrets, dependency CVEs, and risky AI agent setups.",
+          "stars": 640,
+          "gain": 114
+        },
+        {
+          "source": "github",
+          "name": "ollama/ollama",
+          "url": "https://github.com/ollama/ollama",
+          "zh": "在本地拉起 Kimi、GLM、MiniMax、DeepSeek、Qwen 等模型。",
+          "en": "Run Kimi, GLM, MiniMax, DeepSeek, Qwen and other models on your own machine.",
+          "stars": 188031,
+          "gain": 90
+        }
+      ]
+    }
+  ]
+}
