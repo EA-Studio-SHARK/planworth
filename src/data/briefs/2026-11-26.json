@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-26",
+  "days": 1,
+  "headline": "Orca 把已有的 Claude Code 与 Codex 订阅编成可远程调度的机器人队，Skills 与跨会话记忆同步升温。",
+  "headlineEn": "Orca turns existing Claude Code and Codex subscriptions into a dispatchable bot fleet, as skills repos and session memory climb with it.",
+  "lead": {
+    "source": "github",
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "zh": "开源客户端，用你自己的 Claude Code 或 Codex 在桌面、手机和远程环境跑机器人，并可从 Slack 交任务。",
+    "en": "An open-source client that runs bots on your own Claude Code or Codex, on desktop, phone, or a remote machine, and takes jobs from Slack.",
+    "stars": 138506,
+    "gain": 2012,
+    "why": "每天在用编程代理的人已经买过模型额度。Orca 不另开一套订阅，而是把 Claude Code 或 Codex 接到 Slack、手机和远程机器，任务结束可回同一标签页审查。",
+    "whyEn": "Built for people who already run coding agents: it does not sell another model plan, it wires the subscription you have into a fleet you can dispatch from Slack or a phone and review in one tab."
+  },
+  "sections": [
+    {
+      "title": "用自有订阅编排 Agent 队伍",
+      "titleEn": "Agent crews on the subscriptions you already pay for",
+      "items": [
+        {
+          "source": "github",
+          "name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "zh": "开源工作台，把多个 Agent 的目标、权限、任务和费用收进同一块看板。",
+          "en": "Open-source orchestration that keeps goals, permissions, tasks, and spend for a group of agents on a single board.",
+          "stars": 117103,
+          "gain": 299
+        },
+        {
+          "source": "github",
+          "name": "msitarzewski/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "zh": "一组带角色与交付物的专家 Agent，可用桌面应用装进 Claude Code、Cursor 和 Codex。",
+          "en": "Specialist agents with defined roles and deliverables, installable into Claude Code, Cursor, and Codex from a desktop app.",
+          "stars": 170291,
+          "gain": 153
+        },
+        {
+          "source": "producthunt",
+          "name": "MyClaw 3.0",
+          "url": "https://www.producthunt.com/products/myclaw-3-0",
+          "zh": "产品页称可组建全天候在线、并共享记忆的 AI 团队。",
+          "en": "Listed as a way to stand up a round-the-clock AI crew that keeps shared memory."
+        },
+        {
+          "source": "producthunt",
+          "name": "OpenEight",
+          "url": "https://www.producthunt.com/products/openeight",
+          "zh": "官方介绍把它写成 AI Agent 的确定性控制层。",
+          "en": "Listed as a control layer meant to make AI agents behave deterministically."
+        }
+      ]
+    },
+    {
+      "title": "Skills 仓库与工程指挥栈",
+      "titleEn": "Skills repositories and a command stack for engineering",
+      "items": [
+        {
+          "source": "github",
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "zh": "作者从日常 .agents 目录抽出可组合的小技能，强调自己掌控工程流程。",
+          "en": "Composable skills pulled from a working .agents folder, written so engineers keep control of the process.",
+          "stars": 333007,
+          "gain": 688
+        },
+        {
+          "source": "github",
+          "name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "zh": "仓库提供给 Claude 加载的技能文件夹，内含说明、脚本和资源，用来重复专项任务。",
+          "en": "Public folders of instructions, scripts, and resources that Claude loads when a specialized task needs a repeatable method.",
+          "stars": 200608,
+          "gain": 533
+        },
+        {
+          "source": "github",
+          "name": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "zh": "YC 总裁公开的 Claude Code 配置，用二十三个斜杠命令角色覆盖产品到发布。",
+          "en": "The Claude Code setup Garry Tan uses, expressed as twenty-three slash-command roles from product thinking through release.",
+          "stars": 142680,
+          "gain": 79
+        }
+      ]
+    },
+    {
+      "title": "跨会话记忆与桌面伴侣",
+      "titleEn": "Cross-session memory and desktop companions",
+      "items": [
+        {
+          "source": "github",
+          "name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "zh": "跨会话保存代理做过的事，压缩后再注入后续对话，支持 Claude Code 与 Codex 等。",
+          "en": "Records what an agent does, compresses it, and feeds the useful bits into later sessions across Claude Code, Codex, and other agents.",
+          "stars": 119809,
+          "gain": 214
+        },
+        {
+          "source": "github",
+          "name": "WhiteBr1ck/agy-powertools",
+          "url": "https://github.com/WhiteBr1ck/agy-powertools",
+          "zh": "挂在 Antigravity 2.0 内做界面汉化、上下文与缓存监控、会话分支和本地用量面板。",
+          "en": "A native overlay for Antigravity 2.0: Chinese UI, context and cache meters, session branches, and a local usage panel.",
+          "stars": 929,
+          "gain": 432
+        },
+        {
+          "source": "github",
+          "name": "qianyiai/kurocat",
+          "url": "https://github.com/qianyiai/kurocat",
+          "zh": "开源桌面打字猫，README 称可与 Claude Code、Codex 等编程代理实时联动。",
+          "en": "An open-source desktop typing cat; the README says it can live-link with Claude Code, Codex, and similar coding agents.",
+          "stars": 1058,
+          "gain": 355
+        },
+        {
+          "source": "producthunt",
+          "name": "VibeCode.surf",
+          "url": "https://www.producthunt.com/products/vibecode-surf",
+          "zh": "产品页称这是让 Agent 构建、运行并测试应用的 AI 代码编辑器。",
+          "en": "Listed as a code editor in which agents assemble, run, and test the application."
+        }
+      ]
+    }
+  ]
+}
