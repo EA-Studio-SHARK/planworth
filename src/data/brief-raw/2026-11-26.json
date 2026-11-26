@@ -1,0 +1,969 @@
+{
+  "date": "2026-11-26",
+  "baselineDate": "2026-11-25",
+  "days": 1,
+  "repos": [
+    {
+      "owner": "stablyai",
+      "repo": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 138506,
+      "createdAt": "2026-03-17",
+      "isNew": false,
+      "gain": 2012
+    },
+    {
+      "owner": "morluto",
+      "repo": "rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 478657,
+      "createdAt": "2026-04-14",
+      "isNew": false,
+      "gain": 1265
+    },
+    {
+      "owner": "firecrawl",
+      "repo": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "language": "TypeScript",
+      "stars": 210191,
+      "createdAt": "2024-04-15",
+      "isNew": false,
+      "gain": 1080
+    },
+    {
+      "owner": "opensetlabs",
+      "repo": "openset-llm",
+      "url": "https://github.com/opensetlabs/openset-llm",
+      "description": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+      "language": "C++",
+      "stars": 966,
+      "createdAt": "2026-11-13",
+      "isNew": true,
+      "gain": 966
+    },
+    {
+      "owner": "XinaTian",
+      "repo": "MROffice",
+      "url": "https://github.com/XinaTian/MROffice",
+      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+      "language": "TypeScript",
+      "stars": 4907,
+      "createdAt": "2026-11-10",
+      "isNew": true,
+      "gain": 871
+    },
+    {
+      "owner": "obra",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 326743,
+      "createdAt": "2025-10-09",
+      "isNew": false,
+      "gain": 792
+    },
+    {
+      "owner": "mattpocock",
+      "repo": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 333007,
+      "createdAt": "2026-02-03",
+      "isNew": false,
+      "gain": 688
+    },
+    {
+      "owner": "DietrichGebert",
+      "repo": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 198811,
+      "createdAt": "2026-06-12",
+      "isNew": false,
+      "gain": 649
+    },
+    {
+      "owner": "pbakaus",
+      "repo": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 116994,
+      "createdAt": "2025-11-16",
+      "isNew": false,
+      "gain": 599
+    },
+    {
+      "owner": "chanke17",
+      "repo": "KuroCat",
+      "url": "https://github.com/chanke17/KuroCat",
+      "description": "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）",
+      "language": "C++",
+      "stars": 574,
+      "createdAt": "2026-11-23",
+      "isNew": true,
+      "gain": 574
+    },
+    {
+      "owner": "anthropics",
+      "repo": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 200608,
+      "createdAt": "2025-09-22",
+      "isNew": false,
+      "gain": 533
+    },
+    {
+      "owner": "affaan-m",
+      "repo": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 310795,
+      "createdAt": "2026-01-18",
+      "isNew": false,
+      "gain": 512
+    },
+    {
+      "owner": "ersinkoc",
+      "repo": "phonebox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+      "language": "JavaScript",
+      "stars": 6587,
+      "createdAt": "2026-11-07",
+      "isNew": true,
+      "gain": 495
+    },
+    {
+      "owner": "pierridotite",
+      "repo": "mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "language": "Python",
+      "stars": 2354,
+      "createdAt": "2026-11-16",
+      "isNew": true,
+      "gain": 447
+    },
+    {
+      "owner": "Leonxlnx",
+      "repo": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 121632,
+      "createdAt": "2026-02-19",
+      "isNew": false,
+      "gain": 433
+    },
+    {
+      "owner": "WhiteBr1ck",
+      "repo": "agy-powertools",
+      "url": "https://github.com/WhiteBr1ck/agy-powertools",
+      "description": "Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板",
+      "language": "JavaScript",
+      "stars": 929,
+      "createdAt": "2026-11-16",
+      "isNew": true,
+      "gain": 432
+    },
+    {
+      "owner": "Graphify-Labs",
+      "repo": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 153450,
+      "createdAt": "2026-04-03",
+      "isNew": false,
+      "gain": 399
+    },
+    {
+      "owner": "erkamyaman",
+      "repo": "rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "language": "Rust",
+      "stars": 9670,
+      "createdAt": "2026-11-16",
+      "isNew": true,
+      "gain": 368
+    },
+    {
+      "owner": "qianyiai",
+      "repo": "kurocat",
+      "url": "https://github.com/qianyiai/kurocat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+      "language": "TypeScript",
+      "stars": 1058,
+      "createdAt": "2026-11-21",
+      "isNew": true,
+      "gain": 355
+    },
+    {
+      "owner": "EL4CTEO",
+      "repo": "fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "language": "Rust",
+      "stars": 4032,
+      "createdAt": "2026-11-21",
+      "isNew": true,
+      "gain": 353
+    },
+    {
+      "owner": "paperclipai",
+      "repo": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 117103,
+      "createdAt": "2026-03-02",
+      "isNew": false,
+      "gain": 299
+    },
+    {
+      "owner": "INK-Q",
+      "repo": "agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "language": "TypeScript",
+      "stars": 1544,
+      "createdAt": "2026-11-19",
+      "isNew": true,
+      "gain": 284
+    },
+    {
+      "owner": "simplexai-labs",
+      "repo": "linger",
+      "url": "https://github.com/simplexai-labs/linger",
+      "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+      "language": "TypeScript",
+      "stars": 4716,
+      "createdAt": "2026-11-10",
+      "isNew": true,
+      "gain": 275
+    },
+    {
+      "owner": "farion1231",
+      "repo": "cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 157231,
+      "createdAt": "2025-08-04",
+      "isNew": false,
+      "gain": 275
+    },
+    {
+      "owner": "JuliusBrussee",
+      "repo": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+      "language": "Go",
+      "stars": 122901,
+      "createdAt": "2026-04-04",
+      "isNew": false,
+      "gain": 226
+    },
+    {
+      "owner": "anomalyco",
+      "repo": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 229231,
+      "createdAt": "2025-04-30",
+      "isNew": false,
+      "gain": 222
+    },
+    {
+      "owner": "thedotmack",
+      "repo": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 119809,
+      "createdAt": "2025-08-31",
+      "isNew": false,
+      "gain": 214
+    },
+    {
+      "owner": "harry0703",
+      "repo": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 145750,
+      "createdAt": "2024-03-11",
+      "isNew": false,
+      "gain": 213
+    },
+    {
+      "owner": "Panniantong",
+      "repo": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 114772,
+      "createdAt": "2026-02-24",
+      "isNew": false,
+      "gain": 207
+    },
+    {
+      "owner": "addyosmani",
+      "repo": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 120458,
+      "createdAt": "2026-02-15",
+      "isNew": false,
+      "gain": 206
+    },
+    {
+      "owner": "NousResearch",
+      "repo": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 266148,
+      "createdAt": "2025-07-22",
+      "isNew": false,
+      "gain": 204
+    },
+    {
+      "owner": "earendil-works",
+      "repo": "pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "stars": 123921,
+      "createdAt": "2025-08-09",
+      "isNew": false,
+      "gain": 176
+    },
+    {
+      "owner": "FrigadeHQ",
+      "repo": "yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
+      "language": "TypeScript",
+      "stars": 3560,
+      "createdAt": "2026-11-10",
+      "isNew": true,
+      "gain": 168
+    },
+    {
+      "owner": "nexu-io",
+      "repo": "open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "language": "TypeScript",
+      "stars": 109526,
+      "createdAt": "2026-04-28",
+      "isNew": false,
+      "gain": 166
+    },
+    {
+      "owner": "msitarzewski",
+      "repo": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 170291,
+      "createdAt": "2025-10-13",
+      "isNew": false,
+      "gain": 153
+    },
+    {
+      "owner": "sous-labs",
+      "repo": "songe",
+      "url": "https://github.com/sous-labs/songe",
+      "description": "A training engine for your local model, using your idle compute",
+      "language": "Python",
+      "stars": 873,
+      "createdAt": "2026-11-20",
+      "isNew": true,
+      "gain": 142
+    },
+    {
+      "owner": "anthropics",
+      "repo": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 157107,
+      "createdAt": "2025-02-22",
+      "isNew": false,
+      "gain": 137
+    },
+    {
+      "owner": "danielwh2",
+      "repo": "sprite-stacking",
+      "url": "https://github.com/danielwh2/sprite-stacking",
+      "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+      "language": "HTML",
+      "stars": 938,
+      "createdAt": "2026-11-20",
+      "isNew": true,
+      "gain": 133
+    },
+    {
+      "owner": "ggml-org",
+      "repo": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 136303,
+      "createdAt": "2023-03-10",
+      "isNew": false,
+      "gain": 129
+    },
+    {
+      "owner": "browser-use",
+      "repo": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "language": "Python",
+      "stars": 122091,
+      "createdAt": "2024-10-31",
+      "isNew": false,
+      "gain": 129
+    },
+    {
+      "owner": "Shubhamsaboo",
+      "repo": "awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "language": "Python",
+      "stars": 145743,
+      "createdAt": "2024-04-29",
+      "isNew": false,
+      "gain": 123
+    },
+    {
+      "owner": "iamajmeena",
+      "repo": "neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "language": "Python",
+      "stars": 2634,
+      "createdAt": "2026-11-19",
+      "isNew": true,
+      "gain": 122
+    },
+    {
+      "owner": "kociden",
+      "repo": "sakurai-skill",
+      "url": "https://github.com/kociden/sakurai-skill",
+      "description": "桜井政博のゲーム作るには 全本編257本の字幕から作ったゲーム制作の Agent Skill（非公式・日本語）",
+      "language": "Python",
+      "stars": 637,
+      "createdAt": "2026-11-12",
+      "isNew": true,
+      "gain": 119
+    },
+    {
+      "owner": "ollama",
+      "repo": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 188149,
+      "createdAt": "2023-06-26",
+      "isNew": false,
+      "gain": 118
+    },
+    {
+      "owner": "openai",
+      "repo": "codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 136484,
+      "createdAt": "2025-04-13",
+      "isNew": false,
+      "gain": 116
+    },
+    {
+      "owner": "sybil-solutions",
+      "repo": "inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "language": "Python",
+      "stars": 2716,
+      "createdAt": "2026-11-16",
+      "isNew": true,
+      "gain": 115
+    },
+    {
+      "owner": "open-webui",
+      "repo": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Svelte",
+      "stars": 159582,
+      "createdAt": "2023-10-06",
+      "isNew": false,
+      "gain": 111
+    },
+    {
+      "owner": "xikhar",
+      "repo": "papercraft",
+      "url": "https://github.com/xikhar/papercraft",
+      "description": "Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style",
+      "language": "JavaScript",
+      "stars": 719,
+      "createdAt": "2026-11-21",
+      "isNew": true,
+      "gain": 87
+    },
+    {
+      "owner": "erkamyaman",
+      "repo": "safe-anything",
+      "url": "https://github.com/erkamyaman/safe-anything",
+      "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+      "language": "Rust",
+      "stars": 725,
+      "createdAt": "2026-11-22",
+      "isNew": true,
+      "gain": 85
+    },
+    {
+      "owner": "garrytan",
+      "repo": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 142680,
+      "createdAt": "2026-03-11",
+      "isNew": false,
+      "gain": 79
+    },
+    {
+      "owner": "sybil-solutions",
+      "repo": "skill-distill",
+      "url": "https://github.com/sybil-solutions/skill-distill",
+      "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+      "language": "Python",
+      "stars": 817,
+      "createdAt": "2026-11-21",
+      "isNew": true,
+      "gain": 78
+    },
+    {
+      "owner": "f",
+      "repo": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "MDX",
+      "stars": 178541,
+      "createdAt": "2022-12-05",
+      "isNew": false,
+      "gain": 77
+    },
+    {
+      "owner": "pmndre",
+      "repo": "pine",
+      "url": "https://github.com/pmndre/pine",
+      "description": "a reactive harness for agents",
+      "language": "TypeScript",
+      "stars": 604,
+      "createdAt": "2026-11-10",
+      "isNew": true,
+      "gain": 73
+    },
+    {
+      "owner": "ThreatDefence",
+      "repo": "agentic-attack-detections",
+      "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+      "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+      "language": "Python",
+      "stars": 710,
+      "createdAt": "2026-11-20",
+      "isNew": true,
+      "gain": 71
+    },
+    {
+      "owner": "langgenius",
+      "repo": "dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "language": "Python",
+      "stars": 161925,
+      "createdAt": "2023-04-12",
+      "isNew": false,
+      "gain": 70
+    },
+    {
+      "owner": "JimLiu",
+      "repo": "open-artifact",
+      "url": "https://github.com/JimLiu/open-artifact",
+      "description": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
+      "language": "TypeScript",
+      "stars": 554,
+      "createdAt": "2026-11-17",
+      "isNew": true,
+      "gain": 67
+    },
+    {
+      "owner": "TauricResearch",
+      "repo": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Towards Agentic Finance Research",
+      "language": "TypeScript",
+      "stars": 123786,
+      "createdAt": "2024-12-28",
+      "isNew": false,
+      "gain": 64
+    },
+    {
+      "owner": "ScottDuncanAI",
+      "repo": "PID-to-Knowledge-Graph",
+      "url": "https://github.com/ScottDuncanAI/PID-to-Knowledge-Graph",
+      "description": "P&ID to Knowledge Graph: a Claude skill that turns P&ID PDFs (digital or scanned) into a process knowledge graph of flow, instruments and control loops.",
+      "language": "Python",
+      "stars": 417,
+      "createdAt": "2026-11-08",
+      "isNew": true,
+      "gain": 58
+    },
+    {
+      "owner": "google-gemini",
+      "repo": "gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "stars": 109142,
+      "createdAt": "2025-04-17",
+      "isNew": false,
+      "gain": 57
+    },
+    {
+      "owner": "mankidev",
+      "repo": "antialgorithm",
+      "url": "https://github.com/mankidev/antialgorithm",
+      "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
+      "language": "Python",
+      "stars": 888,
+      "createdAt": "2026-11-14",
+      "isNew": true,
+      "gain": 50
+    }
+  ],
+  "launches": [
+    {
+      "name": "Hiring Right Now",
+      "tagline": "Which startups would hire you?",
+      "url": "https://www.producthunt.com/products/hiring-right-now",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Airbot",
+      "tagline": "The AI chief of staff that texts you first",
+      "url": "https://www.producthunt.com/products/airbots",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "name": "Qube",
+      "tagline": "An AI agent for anyone",
+      "url": "https://www.producthunt.com/products/qube-6",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "MyClaw 3.0",
+      "tagline": "Build an always-on AI team with shared memory",
+      "url": "https://www.producthunt.com/products/myclaw-3-0",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Koed",
+      "tagline": "Supercharged Agents!",
+      "url": "https://www.producthunt.com/products/koed",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "PartGenie 2.0",
+      "tagline": "The AI workspace for hardware engineering",
+      "url": "https://www.producthunt.com/products/partgenie",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "name": "Falcon by Vybe",
+      "tagline": "Falcon analyzes your competitors for free, then gets to work",
+      "url": "https://www.producthunt.com/products/vybe-4",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "eluna",
+      "tagline": "Period tracker for couples that explains WHY, not just WHEN",
+      "url": "https://www.producthunt.com/products/eluna",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "name": "VibeCode.surf",
+      "tagline": "AI code editor where agents build, run and test your app",
+      "url": "https://www.producthunt.com/products/vibecode-surf",
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "name": "OpenEight",
+      "tagline": "The deterministic control layer for AI agents",
+      "url": "https://www.producthunt.com/products/openeight",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "CodeRabbit Verify",
+      "tagline": "AI agent that tests your running app on every pull request",
+      "url": "https://www.producthunt.com/products/coderabbit",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "name": "Tendeck",
+      "tagline": "Run all your Claude Code and Codex agents on one Mac board",
+      "url": "https://www.producthunt.com/products/tendeck",
+      "publishedAt": "2026-11-14"
+    },
+    {
+      "name": "Continual-ARC",
+      "tagline": "OpenClaw doesn't learn from experience. Does your agent?",
+      "url": "https://www.producthunt.com/products/unify-5",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "name": "Blink",
+      "tagline": "Describe any trade and watch Blink build it",
+      "url": "https://www.producthunt.com/products/blink-35",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "MAGI-2",
+      "tagline": "Sand AI's 480B model for cinematic video generation",
+      "url": "https://www.producthunt.com/products/magi-1",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Sen Việt (VieLotus-IM)",
+      "tagline": "Smart Bilingual input method for macOS, Windows, and Linux.",
+      "url": "https://www.producthunt.com/products/sen-vi-t-vielotus-im",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "SteerLatch",
+      "tagline": "Connect MCP-compatible AIs to your computer",
+      "url": "https://www.producthunt.com/products/steerlatch",
+      "publishedAt": "2026-11-14"
+    },
+    {
+      "name": "3way.Social MCP",
+      "tagline": "Ask your AI to find link partners. You approve the deals.",
+      "url": "https://www.producthunt.com/products/3way-social",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "TruAstra",
+      "tagline": "Small practices based on your birthday + the current weather",
+      "url": "https://www.producthunt.com/products/truastra",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Hai",
+      "tagline": "Your AI assistant that actually makes the phone call",
+      "url": "https://www.producthunt.com/products/hai-4",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Fompi",
+      "tagline": "Personal security & privacy companion that calls out risks",
+      "url": "https://www.producthunt.com/products/fompi",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Canva MCP",
+      "tagline": "Turn any AI agent into a creative powerhouse",
+      "url": "https://www.producthunt.com/products/canva",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "RelayRunner",
+      "tagline": "Swap between CI runners on-demand with zero code changes.",
+      "url": "https://www.producthunt.com/products/relayrunner",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "name": "MemoryWorks",
+      "tagline": "Company memory for people and AI agents",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Hold'em",
+      "tagline": "Swipe real Black Friday cart deals across Shopify",
+      "url": "https://www.producthunt.com/products/hold-em",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Tray",
+      "tagline": "macOS file manager in a screen corner",
+      "url": "https://www.producthunt.com/products/tray-2",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "name": "file.spot",
+      "tagline": "File transfer for creative professionals",
+      "url": "https://www.producthunt.com/products/file-spot",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "GibHub",
+      "tagline": "Retrieve and compare Git versions",
+      "url": "https://www.producthunt.com/products/gibhub-git-file-history",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "PeerBand",
+      "tagline": "Reach every coding agent you run, from anywhere",
+      "url": "https://www.producthunt.com/products/peerband",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Notely",
+      "tagline": "Notion-grade power & BYOK AI, stored locally in SQLite",
+      "url": "https://www.producthunt.com/products/notely-8",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Statefold",
+      "tagline": "Coding agents that keep working while you're away",
+      "url": "https://www.producthunt.com/products/statefold-2",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Snag by Parallel",
+      "tagline": "Find the best deals on products from your agents",
+      "url": "https://www.producthunt.com/products/snag",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Omi X 2.0",
+      "tagline": "Omi can build anything. Your $1B idea, live in production",
+      "url": "https://www.producthunt.com/products/omi-x",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "name": "Even G2 Enterprise SDK",
+      "tagline": "Build custom business apps for Even G2 smart glasses",
+      "url": "https://www.producthunt.com/products/even-g2",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Adanotch",
+      "tagline": "A live Dynamic Island for your MacBook notch",
+      "url": "https://www.producthunt.com/products/adanotch",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "name": "tday.com",
+      "tagline": "AI-recorded Screen Studio style editable demos",
+      "url": "https://www.producthunt.com/products/tday",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Prates",
+      "tagline": "Learns how you write, then writes exactly as you would",
+      "url": "https://www.producthunt.com/products/prates",
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "name": "Finer Screenshot",
+      "tagline": "Add text that automatically stays readable on any background",
+      "url": "https://www.producthunt.com/products/finer-screenshot",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "distribution.dev",
+      "tagline": "Advertise to developers on many sites with one campaign",
+      "url": "https://www.producthunt.com/products/distribution-dev",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "name": "Wellbreak",
+      "tagline": "Your wellbeing buddy in Mac's notch",
+      "url": "https://www.producthunt.com/products/wellbreak",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Astrolabio",
+      "tagline": "Your AIs pick up right where you left off, on your Mac",
+      "url": "https://www.producthunt.com/products/astrolabio",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Mystonie",
+      "tagline": "Log movies, shows, books & games — turn finishes into art",
+      "url": "https://www.producthunt.com/products/mystonie",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Granular.Build",
+      "tagline": "Put your AI agents to work in a visual workspace",
+      "url": "https://www.producthunt.com/products/granular-build",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "name": "Umami Manager",
+      "tagline": "Umami reports, widgets & links – native on iPhone & iPad",
+      "url": "https://www.producthunt.com/products/umami-manager",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Viktor Code",
+      "tagline": "Coding agents know your repo. Viktor knows your company.",
+      "url": "https://www.producthunt.com/products/viktor",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "K-Stra",
+      "tagline": "Geomarketing for Australia, with an AI that does the maths",
+      "url": "https://www.producthunt.com/products/k-stra",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "name": "Rotara",
+      "tagline": "Mac workspaces, one flick away",
+      "url": "https://www.producthunt.com/products/rotara",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "name": "Claude Ship",
+      "tagline": "Ship code as fast as you can write it",
+      "url": "https://www.producthunt.com/products/claude-code",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Finseo",
+      "tagline": "Company brain + outreach to get your brand mentioned by AI",
+      "url": "https://www.producthunt.com/products/finseo-ai",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "name": "Astor",
+      "tagline": "AI Thesis Investing",
+      "url": "https://www.producthunt.com/products/astor",
+      "publishedAt": "2026-11-18"
+    }
+  ]
+}
