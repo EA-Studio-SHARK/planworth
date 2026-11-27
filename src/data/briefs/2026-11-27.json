@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-27",
+  "days": 1,
+  "headline": "无 GPU、8 GB 内存可跑本地大模型，编程代理同时补上代码图谱、审美技能和更短回复。",
+  "headlineEn": "CPU-only machines with 8 GB of RAM can host a local model, while coding agents add codebase graphs, visual taste, and shorter replies.",
+  "lead": {
+    "source": "github",
+    "name": "opensetlabs/openset-llm",
+    "url": "https://github.com/opensetlabs/openset-llm",
+    "zh": "README 称 8 GB 纯 CPU 可跑 27B，约 17 到 20 token 每秒，约为所测次快引擎的四倍。",
+    "en": "An OpenAI-compatible server with no GPU. The README says a 27B model reaches 17–20 tokens per second on eight cores and 8 GB of RAM, about four times the next engine they tested.",
+    "stars": 1796,
+    "gain": 830,
+    "why": "每天把上下文交给 Claude 和编程代理的人，现在可以在没有显卡的机器上起一个兼容接口的本地模型，把一部分推理留在自己这边。",
+    "whyEn": "If you already send context to Claude and coding agents, you can stand up an OpenAI-compatible endpoint on a machine with no GPU and keep some inference at home."
+  },
+  "sections": [
+    {
+      "title": "编程代理要图谱、审美和更短回复",
+      "titleEn": "Coding agents want graphs, taste, and fewer tokens",
+      "items": [
+        {
+          "source": "github",
+          "name": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "zh": "把代码库连同文档与 SQL 谱成可查询知识图谱，边由本地 AST 解析，不靠向量库。",
+          "en": "Turn a repo, its docs, SQL, and configs into a local graph with explained edges, then reuse that context in Claude Code or Cursor without a vector store.",
+          "stars": 153910,
+          "gain": 460
+        },
+        {
+          "source": "github",
+          "name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "zh": "艺术指导、参考图和浏览器核对，用来约束代理做出的页面。",
+          "en": "Skills that steer coding agents with art direction, reference images, and a browser pass instead of generic layouts.",
+          "stars": 122031,
+          "gain": 399
+        },
+        {
+          "source": "github",
+          "name": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "zh": "作者称在 Terminal-Bench 上每道解出的题比 Codex 少花百分之二十一的费用。",
+          "en": "A skill and local proxy that shortens replies and tool traces while keeping the original recoverable. The authors say it cost 21% less than Codex per solved Terminal-Bench task.",
+          "stars": 123119,
+          "gain": 218
+        },
+        {
+          "source": "producthunt",
+          "name": "NEXUS",
+          "url": "https://www.producthunt.com/products/nexus-42",
+          "zh": "在本地画代码地图，模型只改你已经批准的部分。",
+          "en": "Build a local map of the repo, and the model may edit only the changes you already signed off on."
+        },
+        {
+          "source": "producthunt",
+          "name": "WhipDesk",
+          "url": "https://www.producthunt.com/products/whipdesk",
+          "zh": "手机上遥控人工智能编程代理。",
+          "en": "Drive coding agents from a phone when you are away from the desk."
+        }
+      ]
+    },
+    {
+      "title": "留在本机的代理与记录",
+      "titleEn": "Agents and notes that stay on the machine",
+      "items": [
+        {
+          "source": "github",
+          "name": "simplexai-labs/linger",
+          "url": "https://github.com/simplexai-labs/linger",
+          "zh": "开源个人代理，完全跑在自己的电脑上。",
+          "en": "A personal agent meant to run entirely on your PC, so the session does not have to live on someone else's servers.",
+          "stars": 4925,
+          "gain": 209
+        },
+        {
+          "source": "github",
+          "name": "FrigadeHQ/yogurt",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "zh": "会议纪要留在本机，通话里不出现机器人，覆盖 Mac、Windows 与 Linux。",
+          "en": "Meeting notes transcribed on your computer, with no bot joining the call, on Mac, Windows, and Linux.",
+          "stars": 3696,
+          "gain": 136
+        },
+        {
+          "source": "github",
+          "name": "sybil-solutions/inference-optimisation-skill",
+          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "zh": "针对本地大模型服务速度做爬山：解码、推测解码、预填充、缓存与首字延迟。",
+          "en": "A skill that hill-climbs local LLM serving across decode, speculative decode, prefill, KV, startup, and time to first token.",
+          "stars": 2830,
+          "gain": 114
+        },
+        {
+          "source": "producthunt",
+          "name": "Meboki",
+          "url": "https://www.producthunt.com/products/meboki",
+          "zh": "离线语法检查，可在任意 Mac 应用中使用，并且开源。",
+          "en": "Grammar checking that stays offline and works inside whatever Mac app you are typing in."
+        }
+      ]
+    },
+    {
+      "title": "代理如何看见网站与外部知识",
+      "titleEn": "How agents see sites and outside knowledge",
+      "items": [
+        {
+          "source": "github",
+          "name": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "zh": "搜索、抓取，并经同一接口接上五百五十多家数据源，当作代理的知识层。",
+          "en": "Search, scrape, and reach more than 550 data providers through one API, as knowledge plumbing for agents.",
+          "stars": 211081,
+          "gain": 890
+        },
+        {
+          "source": "producthunt",
+          "name": "Bifura",
+          "url": "https://www.producthunt.com/products/bifura",
+          "zh": "从代理的视角查看你的网站。",
+          "en": "Preview how agents parse your pages, not how a browser paints them."
+        }
+      ]
+    }
+  ]
+}
