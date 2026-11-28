@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-28",
+  "days": 1,
+  "headline": "开源游戏代理一天涨超千星，把Claude Code与Codex接到从构想到发行的游戏流水线。",
+  "headlineEn": "An open-source game agent adds over a thousand stars in a day, wiring Claude Code and Codex into a pipeline from idea to store listing.",
+  "lead": {
+    "source": "github",
+    "name": "nexu-io/opengame",
+    "url": "https://github.com/nexu-io/opengame",
+    "zh": "把二十多个编程代理接成全栈游戏工作室，可改一百多个可玩模板并发行到微信、抖音、TikTok等渠道。",
+    "en": "Turns twenty-plus coding agents into a full-stack game studio, remixing a hundred-plus playable titles and publishing to WeChat, Douyin, TikTok and other channels.",
+    "stars": 2379,
+    "gain": 1133,
+    "why": "每天用编程代理写代码的人，可以把同一套代理接到游戏制作和发行链路上，该仓库一天新增一千一百三十三星。",
+    "whyEn": "People who already live in coding agents can point those same agents at game production and publishing; the repo gained 1,133 stars in a day."
+  },
+  "sections": [
+    {
+      "title": "技能包、会话蒸馏与模拟器并行测试",
+      "titleEn": "Skill packs, session distillation, and parallel simulator tests",
+      "items": [
+        {
+          "source": "github",
+          "name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "zh": "面向编程代理的工程技能包，覆盖从定义到发布各阶段的质量门禁。",
+          "en": "Packs the workflows and quality gates senior engineers use, so coding agents apply them from spec through release.",
+          "stars": 120810,
+          "gain": 171
+        },
+        {
+          "source": "github",
+          "name": "sybil-solutions/skill-distill",
+          "url": "https://github.com/sybil-solutions/skill-distill",
+          "zh": "在一次跑通的Claude Code或Codex会话结束时，把步骤蒸馏成开源权重模型可跟随的技能。",
+          "en": "After a strong Claude Code or Codex session, freeze the method into a skill a smaller open-weight model can rerun.",
+          "stars": 1007,
+          "gain": 72
+        },
+        {
+          "source": "github",
+          "name": "pierridotite/mobile-agent-testers",
+          "url": "https://github.com/pierridotite/mobile-agent-testers",
+          "zh": "用免费的GitHub Runner并行拉起二十个Claude Code测试员，分别进不同手机查流程与无障碍问题。",
+          "en": "Runs twenty Claude Code testers in parallel on free GitHub runners, each on a different phone image, looking for broken flows, copy, layout and accessibility issues.",
+          "stars": 2629,
+          "gain": 95
+        },
+        {
+          "source": "producthunt",
+          "name": "Pushary Calls",
+          "url": "https://www.producthunt.com/products/pushary",
+          "zh": "错过AI代理的提醒时，它会打电话给你。",
+          "en": "When an agent ping goes unseen, it places a phone call."
+        }
+      ]
+    },
+    {
+      "title": "热路径迁到Rust与纯汇编推理",
+      "titleEn": "Hot-path ports to Rust, and inference in pure assembly",
+      "items": [
+        {
+          "source": "github",
+          "name": "erkamyaman/rust-anything",
+          "url": "https://github.com/erkamyaman/rust-anything",
+          "zh": "按模块把应用迁到Rust，每一步都对照原程序是否仍表现一致。",
+          "en": "Move an app to Rust in slices, verifying behavior against the original after each step, for many mainstream languages.",
+          "stars": 10838,
+          "gain": 526
+        },
+        {
+          "source": "github",
+          "name": "EL4CTEO/fast-anything",
+          "url": "https://github.com/EL4CTEO/fast-anything",
+          "zh": "作者称先剖析再只改约百分之五的慢函数，交给编程代理移植到Rust并核对结果。",
+          "en": "Profile first, then have a coding agent port only the slow slice to Rust and prove the outputs match recorded calls.",
+          "stars": 4504,
+          "gain": 227
+        },
+        {
+          "source": "github",
+          "name": "alesha-pro/llm.asm",
+          "url": "https://github.com/alesha-pro/llm.asm",
+          "zh": "用纯x86-64汇编写出可引导系统和Qwen3-0.6B推理，不含C与libc。",
+          "en": "Hand-written x86-64 assembly for Qwen3-0.6B inference, a bootable OS, and a tiny trainer, with no C and no libc.",
+          "stars": 2289,
+          "gain": 651
+        },
+        {
+          "source": "producthunt",
+          "name": "gpyou",
+          "url": "https://www.producthunt.com/products/gpyou",
+          "zh": "在现货里找最便宜的GPU算力，做法类似计算版OpenRouter。",
+          "en": "Routes jobs to the lowest-priced GPUs currently listed, in the same spirit as OpenRouter."
+        }
+      ]
+    },
+    {
+      "title": "浏览器改Office、划词提问与代理用人物检索",
+      "titleEn": "Browser Office editing, clip-to-model queries, and people search for agents",
+      "items": [
+        {
+          "source": "github",
+          "name": "XinaTian/MROffice",
+          "url": "https://github.com/XinaTian/MROffice",
+          "zh": "浏览器里编辑文档、表格、演示文稿和PDF，并经MCP让Claude与ChatGPT改真实Office文件。",
+          "en": "In-browser editors for documents, spreadsheets, decks, PDF and code, with MCP so Claude, ChatGPT, Cursor and Codex can create and edit real Office files.",
+          "stars": 5124,
+          "gain": 501
+        },
+        {
+          "source": "producthunt",
+          "name": "snibl",
+          "url": "https://www.producthunt.com/products/snibl",
+          "zh": "从任意应用划存文本，再拿去问AI。",
+          "en": "Keep text you highlight in any app, then query a model about those clips."
+        },
+        {
+          "source": "producthunt",
+          "name": "Ploid",
+          "url": "https://www.producthunt.com/products/ploid",
+          "zh": "给AI代理做人物检索，覆盖二十亿以上档案。",
+          "en": "A people-search layer for agents, spanning more than two billion profiles."
+        }
+      ]
+    }
+  ]
+}
